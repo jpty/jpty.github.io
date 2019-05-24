@@ -1,8 +1,3 @@
----
-title: Jeedom | Plugin BoschIndego
-description: Commande et surveillance des robots tondeuse Bosch Indego
----
-
 <img align="right" src="../images/BoschIndego_icon.png" width="100">
 
 # BoschIndego - Plugin pour Jeedom
