@@ -34,7 +34,7 @@ En mode Tonte programmée, la date/heure de la prochaine tonte est récupérée 
 
 Les actions créées par le plugin sont mow, pause, returntodock, refresh, cronSetEnableOn et cronSetEnableOff. Les 2 dernières actions sont pour le daemon de surveillance de la tonte.
 
-{% include lightbox.html src="../images/BoschIndego_screenshot.jpg" data="BoschIndego" title="Explorateur" imgstyle="width:550px;display: block;margin: 0 auto;" %}
+<img src="../images/BoschIndego_screenshot.PNG" width="550px">
 
 ## Remerciements
 - A [**fle**](http://www.jeedom.com/forum/memberlist.php?mode=viewprofile&u=1461) pour les scripts et le widget qui m'ont servi de base pour ce plugin.
