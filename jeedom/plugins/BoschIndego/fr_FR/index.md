@@ -22,7 +22,12 @@ Commande et surveillance des robots tondeuse Bosch Indego.
 Après installation du plugin, il vous suffit de l’activer.
 Il apparaitra alors dans le menu *Plugins > Objets connectés*
 
-Dans la configuration du plugin, renseignez le nom d'utilisateur et le mot de passe de connexion au site Bosch. Sauvegardez et cliquez sur le bouton Tester connexion. Copiez le numéro de série qui apparait sous Connexion OK. Fermez la fenêtre de test de connexion, et collez le numéro de série dans le champ Numéros de série et sauvegardez la configuration du plugin.
+- Renseignez le nom d'utilisateur et le mot de passe de connexion au site Bosch.
+- Sauvegardez et cliquez sur le bouton Tester connexion.
+- Copiez le numéro de série qui apparait sous Connexion OK.
+- Fermez la fenêtre de test de connexion, et collez le numéro de série dans le champ Numéros de série.
+- Sauvegardez la configuration du plugin.
+
 <img src="../images/ConfigurationPlugin.PNG" width="550px">
 
 ## Utilisation
