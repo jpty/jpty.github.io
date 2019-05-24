@@ -4,6 +4,9 @@ description: Commande et surveillance des robots tondeuse Bosch Indego
 ---
 
 <img align="right" src="../images/BoschIndego_icon.png" width="100">
+# BoschIndego - Plugin pour Jeedom
+
+Commande et surveillance des robots tondeuse Bosch Indego.
 
 ## Installation
 - Depuis mon [Github](https://github.com/jpty/Jeedom-plugin-BoschIndego), téléchargez le fichier BoschIndego.zip.
