@@ -14,7 +14,7 @@ Commande et surveillance des robots tondeuse Bosch Indego.
 ## Installation
 - Depuis mon github, téléchargez le fichier BoschIndego.zip.
 - Dans Jeedom après avoir activé les sources de type fichier pour les mises à jour, ajoutez un plugin avec le type de source Fichier. L'ID logique du plugin doit être renseigné à BoschIndego. Puis cliquez sur le bouton Envoyer un plugin et sélectionnez le zip téléchargé précédemment.
-{% include lightbox.html src="../images/InstallPluginBoschIndego.PNG" data="BoschIndego" title="Explorateur" imgstyle="width:550px;display: block;margin: 0 auto;" %}
+<img align="right" src="../images/InstallPluginBoschIndego.PNG" width="550px">
 - Cliquez sur Enregistrer Le plugin est maintenant installé.
 
 ## Configuration du plugin BoschIndego
