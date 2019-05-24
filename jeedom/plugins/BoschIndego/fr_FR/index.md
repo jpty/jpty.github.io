@@ -18,11 +18,11 @@ Il apparaitra alors dans le menu *Plugins > Objets connectés*
 Dans la configuration du plugin, renseignez le nom d'utilisateur et le mot de passe de connexion au site Bosch. Sauvegardez et cliquez sur le bouton Tester connexion. Copiez le numéro de série qui apparait sous Connexion OK. Fermez la fenêtre de test de connexion, et collez le numéro de série dans le champ Numéros de série et sauvegardez la configuration du plugin.
 
 
-{% include lightbox.html src="jeexplorer/images/config_03.jpg" data="jeexplorer" title="Configuration" imgstyle="width:550px;display: block;margin: 0 auto;" %}
+{% include lightbox.html src="BoschIndego/images/ConfigurationPlugin.PNG" data="BoschIndego" title="Configuration" imgstyle="width:550px;display: block;margin: 0 auto;" %}
 
 ## Utilisation
 
-{% include lightbox.html src="jeexplorer/images/jeexplorer_screenshot4.jpg" data="jeexplorer" title="Explorateur" imgstyle="width:550px;display: block;margin: 0 auto;" %}
+{% include lightbox.html src="BoschIndego/images/BoschIndego_screenshot.jpg" data="BoschIndego" title="Explorateur" imgstyle="width:550px;display: block;margin: 0 auto;" %}
 
 ## Remerciements
 - A [**fle**](http://www.jeedom.com/forum/memberlist.php?mode=viewprofile&u=1461) pour les scripts et le widget qui m'ont servi de base pour ce plugin.
@@ -31,7 +31,7 @@ Dans la configuration du plugin, renseignez le nom d'utilisateur et le mot de pa
 ## Installation
 - Depuis mon github, téléchargez le fichier BoschIndego.zip.
 - Dans Jeedom après avoir activé les sources de type fichier pour les mises à jour, ajoutez un plugin avec le type de source Fichier. L'ID logique du plugin doit être renseigné à BoschIndego. Puis cliquez sur le bouton Envoyer un plugin et sélectionnez le zip téléchargé précédemment.
-![Alt text](https://github.com/jpty/Jeedom-plugin-BoschIndego/blob/master/InstallPluginBoschIndego.PNG)
+{% include lightbox.html src="BoschIndego/images/InstallPluginBoschIndego.PNG" data="BoschIndego" title="Explorateur" imgstyle="width:550px;display: block;margin: 0 auto;" %}
 - Cliquez sur Enregistrer Le plugin est maintenant installé.
 - Activez le plugin
 - 
