@@ -5,12 +5,6 @@ description: Commande et surveillance des robots tondeuse Bosch Indego
 
 <img align="right" src="../images/BoschIndego_icon.png" width="100">
 
-# BoschIndego - Plugin pour Jeedom
-
-Commande et surveillance des robots tondeuse Bosch Indego.
-
-[Changelog](changelog.md)<br />
-
 ## Installation
 - Depuis mon [Github](https://github.com/jpty/Jeedom-plugin-BoschIndego), téléchargez le fichier BoschIndego.zip.
 - Dans Jeedom après avoir activé les sources de type fichier pour les mises à jour, ajoutez un plugin avec le type de source Fichier. L'ID logique du plugin doit être renseigné à BoschIndego. Puis cliquez sur le bouton Envoyer un plugin et sélectionnez le zip téléchargé précédemment.
@@ -45,3 +39,5 @@ Les actions créées par le plugin sont mow, pause, returntodock, refresh, cronS
 ## Remerciements
 - A [**fle**](http://www.jeedom.com/forum/memberlist.php?mode=viewprofile&u=1461) pour les scripts et le widget qui m'ont servi de base pour ce plugin.
 - A zazaz-de pour la description de l'API Bosch indego disponible [**ici**](https://github.com/zazaz-de/iot-device-bosch-indego-controller/blob/master/PROTOCOL.md)
+
+[Changelog](changelog.md)
