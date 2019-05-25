@@ -9,7 +9,7 @@ Commande et surveillance des robots tondeuse Bosch Indego.
 - Cliquez sur Enregistrer Le plugin est maintenant installé.
 <img src="../images/InstallPluginBoschIndego.PNG" width="550px">
 
-## Configuration du plugin BoschIndego
+## Configuration
 
 Après installation du plugin, il vous suffit de l’activer.
 Il apparaitra alors dans le menu *Plugins > Objets connectés*
