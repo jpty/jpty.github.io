@@ -28,7 +28,7 @@ Ajoutez un équipement, renseignez les différents champs et sélectionnez le nu
 
 En mode Tonte manuelle, au lancement de l'action Tondre, un daemon de surveillance de l'avancement de la tonte démarre et s'arrêtera 2 minutes après le retour de la tondeuse sur la station.
 
-En mode Tonte programmée, la date/heure de la prochaine tonte est récupérée par le plugin. Une entrée cron est créée pour lancer le daemon de surveillance au début de la tonte. En cas de modification de l'heure de tonte, il faut cliquer sur l'icone en haut à droite de la tuile pour synchroniser les données. 
+En mode Tonte programmée, la date/heure de la prochaine tonte est récupérée par le plugin. Une entrée cron est créée pour lancer le daemon de surveillance au début de la tonte. En cas de modification de l'heure de tonte dans l'appli Bosch Indego, il faut cliquer sur l'icone en haut à droite de la tuile pour synchroniser les données. 
 
 Les actions créées par le plugin sont mow, pause, returntodock, refresh, cronSetEnableOn et cronSetEnableOff. Les 2 dernières actions sont pour le daemon de surveillance de la tonte.
 
