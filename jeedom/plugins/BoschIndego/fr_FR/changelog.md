@@ -8,6 +8,9 @@ Commande et surveillance des robots tondeuse Bosch Indego.
 
 >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 
+### 24/03/2020
+- Changement de l'icone.
+
 ### 13/03/2020
 - Ajout de widgets pour la v4.
 - Ajout en Beta sur le market.
