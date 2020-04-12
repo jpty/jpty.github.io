@@ -1,0 +1,12 @@
+theme: jekyll-theme-slate
+
+title: Plugins Jeedom
+name: Documentations
+description: Documentations plugins Jeedom
+
+languages: ["en", "fr"]
+defaultLang: fr
+languageNames:
+  fr: Français
+  en: English
+

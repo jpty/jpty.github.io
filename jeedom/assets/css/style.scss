@@ -1,0 +1,54 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.inner {
+	max-width:760px !important;
+}
+
+#header_wrap, #footer_wrap {
+	color:#fff;
+	background-color:#333333;
+	background-image:linear-gradient(90deg, #333333, #333333);
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+img {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-o-box-shadow: none;
+	-ms-box-shadow: none;
+	box-shadow: none;
+	border: none;
+}
+
+.alert {
+	color: red;
+	font-weight: bold;
+}
+
+//scroll to top:
+.scrollUpButton {
+	display: none;
+	opacity: 0.6;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	display: none;
+	background: #000;
+	color: #fff;
+	font-size: 1.5em;
+	text-decoration: none;
+	padding: 5px 10px 5px 10px;
+}
+.scrollUpButton:hover, .scrollUpButton:focus {
+	outline: none;
+	text-decoration: none;
+	color: #fff;
+	opacity: 1;
+}
