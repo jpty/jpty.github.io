@@ -8,6 +8,11 @@ Commande et surveillance des robots tondeuse Bosch Indego.
 
 >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 
+### 01/12/2020
+- Ajout étiquette compatibilité v4.
+- v4 Correction de la taille de la carte du terrain pour Chrome.
+- v4 Ajout de la possibilité de faire tourner la carte avec le paramètre optionnel rotateSvg L'angle est en degré.
+
 ### 24/03/2020
 - Changement de l'icone.
 
