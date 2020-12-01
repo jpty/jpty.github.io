@@ -34,7 +34,7 @@ En mode Tonte programmée, la date/heure de la prochaine tonte est récupérée 
 Les actions créées par le plugin sont mow, pause, returntodock, refresh, cronSetEnableOn et cronSetEnableOff. Les 2 dernières actions sont pour l'activation de la surveillance de la tonte.
 
 ## Remerciements
-- A [**fle**](http://www.jeedom.com/forum/memberlist.php?mode=viewprofile&u=1461) pour les scripts et le widget qui m'ont servi de base pour ce plugin.
+- A [**fle**](https://community.jeedom.com/u/fle/summary) pour les scripts et le widget qui m'ont servi de base pour ce plugin.
 - A zazaz-de pour la description de l'API Bosch indego disponible [**ici**](https://github.com/zazaz-de/iot-device-bosch-indego-controller/blob/master/PROTOCOL.md)
 
 [Changelog](changelog.md)
