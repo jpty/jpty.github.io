@@ -23,6 +23,7 @@ Ajoutez un équipement, renseignez les différents champs et sélectionnez un nu
 Ci-dessous le rendu sur le tableau de bord avec les commandes réparties sur un virtuel et le plugin.
 
 <img src="../images/BoschIndego_screenshot.PNG" width="550px">
+Le plugin virtuel ne permet plus d'afficher la carte. Celle-ci doit rester sur la tuile principale du plugin.
 
 ## Précisions sur le fonctionnement
 
