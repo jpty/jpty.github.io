@@ -10,8 +10,8 @@ Commande et surveillance des robots tondeuse Bosch Indego.
 
 ### 09/10/2021
 - Correction de l'action Retour station. Changement de returntodock en returnToDock.
-- Coorection des fonctions cron et cronDayly
-- 
+- Correction des fonctions cron et cronDayly ( static )
+
 ### 01/12/2020
 - Ajout de l'étiquette compatibilité v4.
 - v4 Correction de la taille de la carte du terrain pour Chrome.
