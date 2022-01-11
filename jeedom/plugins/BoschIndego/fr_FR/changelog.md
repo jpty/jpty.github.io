@@ -8,6 +8,9 @@ Commande et surveillance des robots tondeuse Bosch Indego.
 
 >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 
+### 11/01/2022
+- Corrections pour Jeedom v4.2 et le renforcement de la sécurité.
+
 ### 09/10/2021
 - Correction de l'action Retour station. Changement de returntodock en returnToDock.
 - Correction des fonctions cron et cronDaily ( static )
