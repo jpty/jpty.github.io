@@ -10,6 +10,7 @@ Commande et surveillance des robots tondeuse Bosch Indego.
 
 ### 20/05/2022
 - Correction de l'erreur 403 lors du test de connexion dans la configuration du plugin suite à des modifications coté Bosch.
+Correction faite en v4 uniquement. Si vous utilisez encore Jeedom v3 demandez-moi la correction.
  
 ### 11/01/2022
 - Corrections pour Jeedom v4.2 et le renforcement de la sécurité.
