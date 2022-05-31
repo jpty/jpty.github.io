@@ -8,4 +8,4 @@ Plugin utilisant l'API One Call d'OpenWeatherMap pour afficher les prévisions m
 
 >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 
-### 31/05/2022
+### 31/05/2022 Version initiale.
