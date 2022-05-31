@@ -1,3 +1,3 @@
-# Open WeatherMap - Plugin pour Jeedom
+# Open Weather Map - Plugin pour Jeedom
 
 Plugin utilisant l'API One Call d'OpenWeatherMap pour afficher les prévisions météo.
