@@ -1,4 +1,4 @@
-<img align="right" src="../images/owm_icon.png" width="100">
+<img align="right" src="../images/rteEcowatt_icon.png" width="100">
 
 # Rte Ecowatt - Plugin pour Jeedom
 
