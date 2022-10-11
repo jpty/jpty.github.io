@@ -20,7 +20,6 @@ Il apparaitra alors dans le menu *Plugins > Energie*
 
 ## Utilisation
 Ajoutez un équipement.
-Les commandes créées sont: TODO
 
 ## Précisions sur le fonctionnement
 
