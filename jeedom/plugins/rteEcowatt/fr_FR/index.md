@@ -7,7 +7,7 @@ Plugin utilisant l'API Rte Ecowatt pour extraire les données.
 ## Prérequis chez Rte
 
 Le plugin nécessite un compte sur le site https://data.rte-france.com
-- A partir de votre compte, il faudra ensuite créer une application.
+- A partir de votre compte, il faut ensuite créer une application.
 - Dans la rubrique Consommation, cliquez sur "Découvrir l'API" de la tuile Ecowatt.
 - Cliquez alors sur "Abonnez-vous à l'API"
 - Rattachez ensuite cette API à votre application.
