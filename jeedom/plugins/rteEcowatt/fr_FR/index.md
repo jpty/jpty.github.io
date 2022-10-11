@@ -21,8 +21,7 @@ Il apparaitra alors dans le menu *Plugins > Energie*
 - Choisissez la minute de récupération des données chez Rte.
 
 ## Utilisation
-
-Créer un équipement.
+Ajoutez un équipement.
 Les commandes créées sont: TODO
 
 ## Précisions sur le fonctionnement
