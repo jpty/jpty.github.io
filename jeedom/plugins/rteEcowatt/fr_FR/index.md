@@ -17,6 +17,8 @@ Le plugin nécessite un compte sur le site [**data.rte-france**](https://data.rt
 
 Après installation du plugin, il vous suffit de l’activer.
 Il apparaitra alors dans le menu *Plugins > Energie*
+- Collez l'ID client et l'ID secret dans la configuration.
+- Choisissez la minute de récupération des données chez Rte.
 
 ## Utilisation
 
