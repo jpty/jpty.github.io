@@ -11,14 +11,16 @@ Il apparaitra alors dans le menu *Plugins > Energie*
 
 Le plugin nécessite un compte sur le site https://data.rte-france.com/
 A partir de votre compte, il faudra ensuite créer une application.
-Et rattacher l'API Ecowatt à cette application.
-En cliquant sur le bouton "Copier en base 64" vos ID client et ID secret encodé en base 64 pourront etre collé dans la configuration du plugin. 
 
+Dans la rubrique Consommation, cliquez sur "Découvrir l'API" de la tuile Ecowatt. Cliquez alors sur "Abonnez-vous à l'API"
+Rattachez ensuite cette API à votre application.
 
-- Sauvegardez la configuration du plugin.
+En cliquant sur le bouton "Copier en base 64", vos ID client et ID secret encodés en base 64 pourront être collés dans la configuration du plugin. 
 
 
 ## Utilisation
+
+Créer un équipement
 
 
 ## Précisions sur le fonctionnement
