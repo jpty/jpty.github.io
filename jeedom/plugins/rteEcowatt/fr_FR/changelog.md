@@ -8,7 +8,7 @@ Plugin utilisant l'API Rte.
 
 >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 
-### 15/10/2022
+### 11/10/2022
 - Version initiale.
 
 
