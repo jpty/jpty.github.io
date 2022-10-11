@@ -10,3 +10,6 @@ Plugin utilisant l'API Rte.
 
 ### 15/10/2022
 - Version initiale.
+
+
+[Retour à la documentation du plugin](index.md)
