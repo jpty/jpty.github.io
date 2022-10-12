@@ -14,6 +14,7 @@ Plugin utilisant l'API Rte.
 - Suppression des espaces début et fin de chaine sur l'IDclient/IDsecret
 - Correction marges sur la template.
 - Suppression des appels setlocale et strftime
+L'équipement doit etre sauvé pour que les nouvelles commandes soient créées.
 
 ### 11/10/2022
 - Version initiale.
