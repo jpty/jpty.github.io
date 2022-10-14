@@ -8,6 +8,10 @@ Plugin utilisant l'API Rte.
 
 >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 
+### 14/10/2022 01:09
+- Version minimum pour l'installation: 4.1
+- Ajout des images png du site monecowatt dans le répertoire core/template/images pour une utilisation future ou pour vos virtuels.
+
 ### 12/10/2022
 - Ajout des commandes "Valeur prochaine alerte" et "Timestamp de la prochaine alerte". Ajout sur la template.
 - Ajout de la commande "Données horaires Json"
