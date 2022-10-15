@@ -4,7 +4,7 @@
 
 Plugin utilisant les API Rte Ecowatt et Tempo pour extraire les données.
 
-Pour une procédure d'installation plus détaillée, voir le site [Miniprojects.net](https://miniprojets.net/index.php/2022/10/13/plugin-rteecowatt-ou-comment-preparer-sa-domotique-a-la-reduction-denergie/)
+Pour une procédure d'installation plus détaillée, voir le site [Miniprojects.net](https://miniprojets.net/index.php/2022/10/13/plugin-rteecowatt-ou-comment-preparer-sa-domotique-a-la-reduction-denergie/) Merci à [Ferrader](https://community.jeedom.com/u/ferrader)
 
 ## Prérequis chez Rte
 
