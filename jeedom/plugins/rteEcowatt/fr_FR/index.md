@@ -33,6 +33,7 @@ Utilisez la commande "Valeur maintenant" comme déclencheur de scénario pour cr
 Apercu de 2 équipements Ecowatt:
 
 <img src="../images/EcowattTuiles.png">
+
 La tuile en mode demo permet de tester vos scénarios avant l'arrivée des alertes réelles.
 
 ### Type Tempo:
