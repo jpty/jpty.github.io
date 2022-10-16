@@ -39,17 +39,11 @@ La tuile en mode demo permet de tester vos scénarios avant l'arrivée des alert
 Créez un équipement. Les données se synchronisent à 11 heures (Rte publie à 10h40) et en rattapage à 12h et 14h.
 
 Les commandes pour les scénarios sont Aujourdhui et Demain.
-Les valeurs possibles de ces 2 commandes sont: BLUE WHITE RED et UNDEFINED
+Les valeurs possibles de ces 2 commandes sont: BLUE, WHITE, RED et UNDEFINED
 
-Apercu de 2 équipements Ecowatt:
+Apercu de l'équipement Tempo:
 
 <img src="../images/TempoTuile.png">
-
-## Précisions sur le fonctionnement
-
-- Chaque heure, le plugin met à jour l'ensemble des commandes avec les données récupérées précédemment.
-- Le plugin interroge Rte une fois par heure à la minute définie dans la configuration du plugin. Ce fonctionnement évoluera suivant la fréquence de publication des alertes par Rte. 
-
 
 [Changelog](changelog.md)
 
