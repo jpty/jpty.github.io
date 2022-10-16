@@ -11,8 +11,8 @@ Plugin utilisant l'API Rte.
 ### En cours
 - Création d'un cron pour récupération des données chez Rte. Le cron minute avec le choix de la minute est supprimé dans la configuration du plugin. La minute à laquelle les données seront récupérées, est visible dans le Moteur des tâches sur la ligne où la Classe de la tâche est rteEcowatt et la Fonction pullDataEcowatt.
 - Le mode démo est maintenant déplacé dans l'équipement. Cela vous permet de créer un nouvel équipement en mode démo pour tester les scénarios utilisant ce plugin.
-- Correction de la commande "Timestamp de la prochaine alerte" et "Valeur prochaine alerte". Ces commandes peuvent etre des déclencheurs de scénario.
-- Correction de la template. 
+- Correction de la commande "Timestamp de la prochaine alerte" et "Valeur prochaine alerte". Ces commandes peuvent être des déclencheurs de scénario.
+- Correction de la template. Ajout de marges. Remplacement de la punaise du niveau de l'alerte de l'heure actuelle.
 
 
 ### 14/10/2022 01:09
