@@ -25,10 +25,10 @@ Il apparaitra alors dans le menu *Plugins > Energie*
 Créez un équipement. Les données se synchronisent chaque heure par le cron dédié. L'affichage est mis à jour au début de chaque heure.
 
 Utilisez la commande "Valeur maintenant" comme déclencheur de scénario pour créer des alertes ou faire des actions de réduction de votre consommation électrique. Les valeurs possibles de cette commande sont:
-- 1 pour le niveau vert
-- 2 orange
-- 3 rouge
-- 0 ajouté par le plugin quand il y a eu un problème de récupération ou quand la valeur n'est pas définie (Ex: la sandbox le 3 juin de 0h à 7h)
+- 1 pour le niveau vert: Consommation normale
+- 2 orange: Système électrique tendu. Les écogestes sont les bienvenus 
+- 3 rouge: Système électrique très tendu. Coupures inévitables si nous ne baissons pas notre consommation 
+- 0 uniquement pour le plugin quand il y a eu un problème de récupération ou quand la valeur n'est pas définie (Ex: la sandbox le 3 juin de 0h à 7h)
 
 Apercu de 2 équipements Ecowatt:
 
@@ -37,11 +37,13 @@ La tuile en mode demo permet de tester vos scénarios avant l'arrivée des alert
 
 ### Type Tempo:
 Créez un équipement. Les données se synchronisent à 11 heures (Rte publie à 10h40) et en rattapage à 12h et 14h.
-Les commandes sont les memes que dans le plugin Eco 2 Watt
+
+Les commandes pour les scénarios sont Aujourdhui et Demain.
+Les valeurs possibles de ces 2 commandes sont: BLUE WHITE RED et UNDEFINED
 
 Apercu de 2 équipements Ecowatt:
 
-<img src="../images/TempoTuiles.png">
+<img src="../images/TempoTuile.png">
 
 ## Précisions sur le fonctionnement
 
