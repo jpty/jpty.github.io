@@ -8,6 +8,13 @@ Plugin utilisant l'API Rte.
 
 >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 
+### En cours
+- Création d'un cron pour récupération des données chez Rte. Le cron minute avec le choix de la minute est supprimé dans la configuration du plugin. La minute à laquelle les données seront récupérées, est visible dans le Moteur des tâches sur la ligne où la Classe de la tâche est rteEcowatt et la Fonction pullDataEcowatt.
+- Le mode démo est maintenant déplacé dans l'équipement. Cela vous permet de créer un nouvel équipement en mode démo pour tester les scénarios utilisant ce plugin.
+- Correction de la commande "Timestamp de la prochaine alerte" et "Valeur prochaine alerte". Ces commandes peuvent etre des déclencheurs de scénario.
+- Correction de la template. 
+
+
 ### 14/10/2022 01:09
 - Version minimum pour l'installation: 4.1
 - Ajout des images png du site monecowatt dans le répertoire core/template/images pour une utilisation future ou pour vos virtuels.
