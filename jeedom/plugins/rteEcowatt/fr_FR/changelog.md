@@ -8,9 +8,9 @@ Plugin utilisant l'API Rte.
 
 >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 
-### En cours prochaine beta
+### En approche dans la prochaine beta
 - Création d'un cron pour récupération des données chez Rte. Le cron minute avec le choix de la minute est supprimé dans la configuration du plugin. La minute à laquelle les données seront récupérées, est visible dans le Moteur des tâches sur la ligne où la Classe de la tâche est rteEcowatt et la Fonction pullDataEcowatt.
-- Le mode démo est maintenant déplacé dans l'équipement. Cela vous permet de créer un nouvel équipement en mode démo pour tester les scénarios utilisant ce plugin.
+- Le mode démo est maintenant déplacé dans l'équipement. Cela vous permet de créer un nouvel équipement en mode démo pour tester les scénarios utilisant les commandes de cet équipement.
 - Correction de la commande "Timestamp de la prochaine alerte" et "Valeur prochaine alerte". Ces commandes peuvent être des déclencheurs de scénario.
 - Correction de la template. Ajout de marges. Remplacement de la punaise du niveau de l'alerte de l'heure actuelle.
 
@@ -21,12 +21,12 @@ Plugin utilisant l'API Rte.
 
 ### 12/10/2022
 - Ajout des commandes "Valeur prochaine alerte" et "Timestamp de la prochaine alerte". Ajout sur la template.
-- Ajout de la commande "Données horaires Json"
+- Ajout de la commande "Données horaires Json". Cette commande ne doit pas être historisée. Les données contenues sont trop volumineuses.
 - Suppression des espaces début et fin de chaine sur l'IDclient/IDsecret
 - Correction marges sur la template.
 - Suppression des appels setlocale et strftime
 
-L'équipement doit etre sauvé pour que les nouvelles commandes soient créées.
+L'équipement doit être sauvé pour que ces nouvelles commandes soient créées.
 
 ### 11/10/2022
 - Version initiale.
