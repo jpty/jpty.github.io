@@ -22,7 +22,7 @@ Il apparaitra alors dans le menu *Plugins > Energie*
 
 ## Utilisation
 ### Type Ecowatt:
-Créez un équipement. Les données se synchronisent chaque heure par le cron dédié. L'affichage est mis à jour au début de chaque heure.
+Créez un équipement. L'affichage est mis à jour au début de chaque heure. Les données se synchronisent chaque heure par le cron dédié. Selon la fréquence à laquelle Rte mettra à jour ses données, (aujourd'hui, c'est une fois par jour car pas d'alerte ), il faudra peut-être corriger la tâche du cron dédié pour s'adapter. 
 
 Utilisez la commande "Valeur maintenant" comme déclencheur de scénario pour créer des alertes ou faire des actions de réduction de votre consommation électrique. Les valeurs possibles de cette commande sont:
 - 1 pour le niveau vert: Consommation normale
