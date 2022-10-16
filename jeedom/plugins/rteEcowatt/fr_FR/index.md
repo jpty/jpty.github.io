@@ -4,7 +4,7 @@
 
 Plugin utilisant les API Rte Ecowatt et Tempo pour extraire les données.
 
-Pour une procédure d'installation plus détaillée, voir le site [MiniProjets.net](https://miniprojets.net/index.php/2022/10/13/plugin-rteecowatt-ou-comment-preparer-sa-domotique-a-la-reduction-denergie/) Merci à [Ferrader](https://community.jeedom.com/u/ferrader)
+>*Pour une procédure d'installation plus détaillée, voir le site [MiniProjets.net](https://miniprojets.net/index.php/2022/10/13/plugin-rteecowatt-ou-comment-preparer-sa-domotique-a-la-reduction-denergie/) Merci à [Ferrader](https://community.jeedom.com/u/ferrader)
 
 ## Prérequis chez Rte
 
@@ -21,7 +21,12 @@ Il apparaitra alors dans le menu *Plugins > Energie*
 - Collez l'ID client et l'ID secret encodés en base64 dans la configuration.
 
 ## Utilisation
-Ajoutez un équipement.
+- Type Ecowatt: Créez un équipement. Les données se synchronisent chaque heure par le cron dédié. L'affichage est mis à jour au début de chaque heure.
+
+Utilisez la commande "Valeur maintenant" comme déclencheur de scénario pour créer des alertes ou faire des actions de réduction de votre consommation électrique.
+
+Apercu de 2 équipements Ecowatt:
+<img align="right" src="../images/EcowattTuiles.png" width="100">
 
 ## Précisions sur le fonctionnement
 
