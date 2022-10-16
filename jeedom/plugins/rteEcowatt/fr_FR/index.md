@@ -26,7 +26,7 @@ Il apparaitra alors dans le menu *Plugins > Energie*
 Utilisez la commande "Valeur maintenant" comme déclencheur de scénario pour créer des alertes ou faire des actions de réduction de votre consommation électrique.
 
 Apercu de 2 équipements Ecowatt:
-<img align="right" src="../images/EcowattTuiles.png" width="100">
+<img align="left" src="../images/EcowattTuiles.png">
 
 ## Précisions sur le fonctionnement
 
