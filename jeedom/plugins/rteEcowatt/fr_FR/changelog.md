@@ -13,6 +13,10 @@ Plugin utilisant l'API Rte.
 - Ajout de 2 paramètres optionnels sur l'équipement: innerSizeAM et innerSizePM permettant de changer l'épaisseur du donut. Les valeurs peuvent être en pourcentage du diamètre extérieur ou en pixel. La valeur par défaut est 75%. La valeur 0% permet d'obtenir un camembert. Si la valeur est trop grande, le graphique n'est pas affiché.
 - Possibilité d'utiliser une template custom. Si le fichier plugins/rteEcowatt/core/template/dashboard/custom.rte_ecowatt.html existe, il est utilisé à la place du fichier rte_ecowatt.html. Avant d'installer cette version, si vous avez modifié la template fournie avec le plugin et que vous désirez conserver vos modifications, copiez la en custom.rte_ecowatt.html
 - La catégorie Energie peut être déselectionnée.
+- En mode demo, les jours varient du 3 au 5 juin
+- Possibilité d'aficher dataHoursJson dans la template. Commence à l'heure actuelle et durée paramétrable dans la configuration de l'équipement
+- Correction du cron de recupération des données Ecowatt. Pas de synchro si le 1er équipement était en démo.
+- Suppression de l'appel à RTE pour Tempo à 0h. (Transfert de tomorrow en today)
 
 ### 17/10/2022
 - Création d'un cron pour récupération des données chez Rte. Le cron minute avec le choix de la minute est supprimé dans la configuration du plugin. La minute à laquelle les données seront récupérées, est visible dans le Moteur des tâches sur la ligne où la Classe de la tâche est rteEcowatt et la Fonction pullDataEcowatt.
