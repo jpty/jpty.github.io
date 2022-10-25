@@ -46,5 +46,10 @@ Apercu de l'équipement Tempo:
 
 <img src="../images/TempoTuile.png">
 
+### Guides utilsateurs des APIs utilisées:
+[**Ecowatt**](https://data.rte-france.com/catalog/-/api/doc/user-guide/Ecowatt/4.0)
+[**Tempo**](https://data.rte-france.com/catalog/-/api/doc/user-guide/Tempo+Like+Supply+Contract/1.1)
+
+
 [Changelog](changelog.md)
 
