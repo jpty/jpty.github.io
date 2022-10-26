@@ -8,6 +8,9 @@ Plugin utilisant l'API Rte.
 
 >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 
+### 26/10/2022 09:59:56
+Passage du plugin en version stable sur le market. La version est identique à la beta de ce matin.
+
 ### 26/10/2022 beta
 - Support partiel de la template Legacy. Couleur des donuts.
 - Ajout de 2 paramètres optionnels sur l'équipement: innerSizeAM et innerSizePM permettant de changer l'épaisseur du donut. Les valeurs peuvent être en pourcentage du diamètre extérieur ou en pixel. La valeur par défaut est 75%. La valeur 0% permet d'obtenir un camembert. Si la valeur est trop grande, le graphique n'est pas affiché.
