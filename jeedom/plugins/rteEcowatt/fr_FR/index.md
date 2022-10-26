@@ -36,7 +36,7 @@ Apercu de 2 équipements Ecowatt:
 
 Apercu avec l'alerte de l'heure courante et l'évolution sur 36 heures.
 
-<img src="../images/Tile-EcoWatt-alerts-by-hour.PNG.png">
+<img src="../images/Tile-EcoWatt-alerts-by-hour.PNG">
 
 La tuile en mode demo permet de tester vos scénarios avant l'arrivée des alertes réelles.
 
