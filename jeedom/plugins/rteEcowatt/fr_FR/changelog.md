@@ -14,7 +14,7 @@ Plugin utilisant l'API Rte.
 - Possibilité d'utiliser une template custom. Si le fichier plugins/rteEcowatt/core/template/dashboard/custom.rte_ecowatt.html existe, il est utilisé à la place du fichier rte_ecowatt.html. Avant d'installer cette version, si vous avez modifié la template fournie avec le plugin et que vous désirez conserver vos modifications, copiez la en custom.rte_ecowatt.html
 - La catégorie Energie peut être déselectionnée.
 - En mode demo, les jours varient du 3 au 5 juin
-- Possibilité d'aficher dataHoursJson dans la template. Commence à l'heure actuelle et durée paramétrable dans la configuration de l'équipement
+- Possibilité d'afficher dataHoursJson dans la template. Commence à l'heure actuelle et durée paramétrable dans la configuration de l'équipement
 - Correction du cron de recupération des données Ecowatt. Pas de synchro si le 1er équipement était en démo.
 - Suppression de l'appel à RTE pour Tempo à 0h. (Transfert de tomorrow en today)
 
