@@ -8,7 +8,7 @@ Plugin utilisant l'API Rte.
 
 >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 
-### Future beta
+### 26/10/2022 beta
 - Support partiel de la template Legacy. Couleur des donuts.
 - Ajout de 2 paramètres optionnels sur l'équipement: innerSizeAM et innerSizePM permettant de changer l'épaisseur du donut. Les valeurs peuvent être en pourcentage du diamètre extérieur ou en pixel. La valeur par défaut est 75%. La valeur 0% permet d'obtenir un camembert. Si la valeur est trop grande, le graphique n'est pas affiché.
 - Possibilité d'utiliser une template custom. Si le fichier plugins/rteEcowatt/core/template/dashboard/custom.rte_ecowatt.html existe, il est utilisé à la place du fichier rte_ecowatt.html. Avant d'installer cette version, si vous avez modifié la template fournie avec le plugin et que vous désirez conserver vos modifications, copiez la en custom.rte_ecowatt.html
@@ -18,7 +18,7 @@ Plugin utilisant l'API Rte.
 - Correction du cron de recupération des données Ecowatt. Pas de synchro si le 1er équipement était en démo.
 - Suppression de l'appel à RTE pour Tempo à 0h. (Transfert de tomorrow en today)
 
-### 17/10/2022
+### 17/10/2022 beta
 - Création d'un cron pour récupération des données chez Rte. Le cron minute avec le choix de la minute est supprimé dans la configuration du plugin. La minute à laquelle les données seront récupérées, est visible dans le Moteur des tâches sur la ligne où la Classe de la tâche est rteEcowatt et la Fonction pullDataEcowatt.
 - Le mode démo est maintenant déplacé dans l'équipement. Cela vous permet de créer un nouvel équipement en mode démo pour tester les scénarios utilisant les commandes de cet équipement. Le mode démo ne nécessite pas de compte Rte. Les données sont fournies avec le plugin.
 - Correction de la commande "Timestamp de la prochaine alerte" et "Valeur prochaine alerte". Ces commandes peuvent être des déclencheurs de scénario.
@@ -26,11 +26,11 @@ Plugin utilisant l'API Rte.
 - Nettoyage des sources
 
 
-### 14/10/2022 01:09
+### 14/10/2022 01:09 beta
 - Version minimum pour l'installation: 4.1
 - Ajout des images png du site monecowatt dans le répertoire plugins/rteEcowatt/core/template/images pour une utilisation future ou pour vos virtuels.
 
-### 12/10/2022
+### 12/10/2022 beta
 - Ajout des commandes "Valeur prochaine alerte" et "Timestamp de la prochaine alerte". Ajout sur la template.
 - Ajout de la commande "Données horaires Json". Cette commande ne doit pas être historisée. Les données contenues sont trop volumineuses.
 - Suppression des espaces début et fin de chaine sur l'IDclient/IDsecret
@@ -39,7 +39,7 @@ Plugin utilisant l'API Rte.
 
 L'équipement doit être sauvé pour que ces nouvelles commandes soient créées.
 
-### 11/10/2022
+### 11/10/2022 beta
 - Version initiale.
 
 
