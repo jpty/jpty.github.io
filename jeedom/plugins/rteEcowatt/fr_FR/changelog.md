@@ -8,6 +8,16 @@ Plugin utilisant l'API Rte.
 
 >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 
+### 31/10/2022 Nouvelle beta en cours
+#### Ecowatt
+- L'heure actuelle est maintenant toujours sur le jour 0 même entre 0h et 1h
+- Possibilité de choisir un template pour l'affichage des données. Si le template custom était utilisé, il sera nécessaire de le resélectionner dans la configuration de l'équipement.
+- Ajout template halloween avec le graphique des alertes du site monecowatt.fr. Merci phpvarious pour l'idée. Le nom vient de la couleur où ce template est apparu sur community.
+- Ajout template heure+jours+heures pour une représentation différente des données.
+#### Tempo
+- Ajout de 2 nouvelles commandes Aujourdhui timestamp et Demain timestamp pour horodater aujourdhui et demain.
+- Correction sur le passage heure été vers heure d'hiver.
+- 
 ### 26/10/2022 09:59:56
 Passage du plugin en version stable sur le market. La version est identique à la beta de ce matin.
 
