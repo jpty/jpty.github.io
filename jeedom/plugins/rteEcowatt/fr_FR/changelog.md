@@ -8,7 +8,7 @@ Plugin utilisant l'API Rte.
 
 >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 
-### 31/10/2022 Nouvelle beta en cours
+### 31/10/2022 17:12:21
 #### Ecowatt
 - L'heure actuelle est maintenant toujours sur le jour 0 même entre 0h et 1h
 - Possibilité de choisir un template pour l'affichage des données. Si le template custom était utilisé, il sera nécessaire de le resélectionner dans la configuration de l'équipement.
