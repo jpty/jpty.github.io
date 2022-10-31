@@ -17,7 +17,7 @@ Plugin utilisant l'API Rte.
 #### Tempo
 - Ajout de 2 nouvelles commandes Aujourdhui timestamp et Demain timestamp pour horodater aujourdhui et demain.
 - Correction sur le passage heure été vers heure d'hiver.
-####
+####  
 ### 26/10/2022 09:59:56
 Passage du plugin en version stable sur le market. La version est identique à la beta de ce matin.
 
