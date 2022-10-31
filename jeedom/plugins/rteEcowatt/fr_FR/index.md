@@ -34,11 +34,11 @@ Apercu de 2 équipements Ecowatt:
 
 <img src="../images/EcowattTuiles.png">
 
-Apercu avec l'alerte de l'heure courante et l'évolution sur 36 heures. Obtenu par édition de la template.
+Apercu des différents templates:
 
-<img src="../images/Tile-EcoWatt-alerts-by-hour.PNG">
+<img src="../images/rteEcowattTemplates.PNG">
 
-La tuile en mode demo permet de tester vos scénarios avant l'arrivée des alertes réelles.
+Les tuiles en mode demo permettent de tester vos scénarios avant l'arrivée des alertes réelles.
 
 ### Type Tempo:
 Créez un équipement. Les données se synchronisent à 11 heures (Rte publie à 10h40) et en rattapage à 12h et 14h.
