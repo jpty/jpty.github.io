@@ -15,9 +15,9 @@ Plugin utilisant l'API Rte.
 - Ajout template halloween avec le graphique des alertes du site monecowatt.fr. Merci phpvarious pour l'idée. Le nom vient de la couleur où ce template est apparu sur community.
 - Ajout template heure+jours+heures pour une représentation différente des données.
 #### Tempo
-- Ajout de 2 nouvelles commandes Aujourdhui timestamp et Demain timestamp pour horodater aujourdhui et demain.
+- Ajout de 2 nouvelles commandes 'Aujourdhui timestamp' et 'Demain timestamp' pour horodater aujourdhui et demain.
 - Correction sur le passage heure été vers heure d'hiver.
-####  
+#### -
 ### 26/10/2022 09:59:56
 Passage du plugin en version stable sur le market. La version est identique à la beta de ce matin.
 
