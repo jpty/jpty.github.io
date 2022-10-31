@@ -12,7 +12,7 @@ Plugin utilisant l'API Rte.
 #### Ecowatt
 - L'heure actuelle est maintenant toujours sur le jour 0 même entre 0h et 1h
 - Possibilité de choisir un template pour l'affichage des données. Si le template custom était utilisé, il sera nécessaire de le resélectionner dans la configuration de l'équipement.
-- Ajout template halloween avec le graphique des alertes du site monecowatt.fr. Merci phpvarious pour l'idée. Le nom vient de la couleur où ce template est apparu sur community.
+- Ajout template halloween avec le graphique des alertes du site monecowatt.fr. Merci phpvarious pour l'idée. Le nom vient de la couleur où ce template est apparu sur community. J'ai préféré mettre en avant la couleur de l'heure actuelle.
 - Ajout template heure+jours+heures pour une représentation différente des données.
 #### Tempo
 - Ajout de 2 nouvelles commandes 'Aujourdhui timestamp' et 'Demain timestamp' pour horodater aujourdhui et demain.
