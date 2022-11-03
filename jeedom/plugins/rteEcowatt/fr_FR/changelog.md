@@ -6,10 +6,12 @@ Plugin utilisant l'API Rte.
 
 ## Changelog
 
->*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
+<!-- >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
+-->
 
 
-### 03/11/2022 Beta
+### 03/11/2022 18:57:02 Beta
+
 #### EDF EJP
 - Ajout d'un nouveau type d'équipement: EJP La source utilisée est le site Web d'EDF. 3 commandes: Aujourd'hui, demain et EJP restants.
 - Valeurs possibles pour Aujourd'hui et demain : EJP, NOT_EJP, UNDEFINED et OUT_OF_PERIOD.
