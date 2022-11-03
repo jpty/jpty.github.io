@@ -21,7 +21,7 @@ Il apparaitra alors dans le menu *Plugins > Energie*
 - Collez l'ID client et l'ID secret encodés en base64 dans la configuration.
 
 ## Utilisation
-### Type Ecowatt:
+### Type Ecowatt (RTE):
 Créez un équipement. L'affichage est mis à jour au début de chaque heure. Les données se synchronisent chaque heure par le cron dédié. Selon la fréquence à laquelle Rte mettra à jour ses données, (aujourd'hui, c'est une fois par jour car pas d'alerte ), il faudra peut-être corriger la tâche du cron dédié pour s'adapter. 
 
 Utilisez la commande "Valeur maintenant" comme déclencheur de scénario pour créer des alertes ou faire des actions de réduction de votre consommation électrique. Les valeurs possibles de cette commande sont:
@@ -40,7 +40,7 @@ Apercu des différents templates:
 
 Les tuiles en mode demo permettent de tester vos scénarios avant l'arrivée des alertes réelles.
 
-### Type Tempo:
+### Type Tempo (RTE):
 Créez un équipement. Les données se synchronisent à 11 heures (Rte publie à 10h40) et en rattapage à 12h et 14h.
 
 Les commandes pour les scénarios sont Aujourdhui et Demain.
@@ -49,6 +49,14 @@ Les valeurs possibles de ces 2 commandes sont: BLUE, WHITE, RED et UNDEFINED
 Apercu de l'équipement Tempo:
 
 <img src="../images/TempoTuile.png">
+
+### Type Ejp (EDF):
+- Ce nouveau type d'équipement n'utilise pas une API RTE. La source utilisée est le site Web d'EDF.
+- 3 commandes: Aujourd'hui, demain et EJP restants. Les valeurs possibles pour Aujourd'hui et demain sont EJP, NOT_EJP, UNDEFINED et OUT_OF_PERIOD.
+- Le plugin interroge EDF à 1h(heure de fin d’un jour EJP), 6h(avant le début d’un jour EJP, 12h, 16h (heure où demain passe dans le plugin de Non défini à EJP ou Non EJP. Si c’est Non EJP ce n’est pas définitif et peut etre changé jusqu'à 5h du matin), 17h, 19h et 22h.
+
+Apercu de l'équipement Tempo:
+<img src="../images/EjpTuile.png">
 
 ### Guides d'utilisation des APIs:
 - [**Ecowatt**](https://data.rte-france.com/catalog/-/api/doc/user-guide/Ecowatt/4.0)
