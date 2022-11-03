@@ -56,6 +56,7 @@ Apercu de l'équipement Tempo:
 - Le plugin interroge EDF à 1h(heure de fin d’un jour EJP), 6h(avant le début d’un jour EJP, 12h, 16h (heure où demain passe dans le plugin de Non défini à EJP ou Non EJP. Si c’est Non EJP ce n’est pas définitif et peut etre changé jusqu'à 5h du matin), 17h, 19h et 22h.
 
 Apercu de l'équipement Tempo:
+
 <img src="../images/EjpTuile.png">
 
 ### Guides d'utilisation des APIs:
