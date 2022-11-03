@@ -13,7 +13,7 @@ Plugin utilisant l'API Rte.
 - Valeurs possibles pour Aujourd'hui et demain : EJP, NOT_EJP, UNDEFINED et OUT_OF_PERIOD.
 - Il suffit de créer un équipement de ce type. Je n'ai testé qu'avec les jours non EJP actuels.
 - Selon le site EDF, la mise à jour des données est effectuée quotidiennement vers 15h30, cependant des contraintes d'exploitation peuvent la retarder jusqu'à 5h du matin du jour EJP. Le plugin interroge EDF à 1h(heure de fin d'un jour EJP), 6h(avant le début d'un jour EJP, 12h, 16h (heure où demain passe dans le plugin de Non défini à EJP ou Non EJP. Si c'est Non EJP ce n'est pas définitif), 17h, 19h et 22h. 
-- Par sécurité et avant l'arrivée des jours EJP, abonnez-vous aux nodifications EDF. Ca serait dommage de payer 0.94€/kWh au lieu de 0,12€ sans être prévenu. 
+- Par sécurité et avant l'arrivée des jours EJP, abonnez-vous aux nodifications EDF. Ca serait dommage de payer 0.9418€/kWh au lieu de 0,1283€ sans être prévenu. (Tarifs du 1er aout 2022 )
 
 
 #### Tempo
