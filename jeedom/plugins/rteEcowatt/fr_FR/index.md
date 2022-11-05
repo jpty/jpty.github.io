@@ -52,8 +52,8 @@ Apercu de l'équipement Tempo:
 
 ### Type Ejp (EDF):
 - Ce nouveau type d'équipement n'utilise pas une API RTE. La source utilisée est le site Web d'EDF.
-- 3 commandes: Aujourd'hui, demain et EJP restants. Les valeurs possibles pour Aujourd'hui et demain sont EJP, NOT_EJP, UNDEFINED et OUT_OF_PERIOD.
-- Le plugin interroge EDF à 1h(heure de fin d’un jour EJP), 6h(avant le début d’un jour EJP, 12h, 16h (heure où demain passe dans le plugin de Non défini à EJP ou Non EJP. Si c’est Non EJP ce n’est pas définitif et peut etre changé jusqu'à 5h du matin), 17h, 19h et 22h.
+- 3 commandes: Aujourd'hui, demain et EJP restants. Les valeurs possibles pour Aujourd'hui et demain sont EJP, NOT_EJP, UNDEFINED, ERROR et OUT_OF_PERIOD.
+- Le plugin interroge EDF à 1h(heure de fin d’un jour EJP), 6h(avant le début d’un jour EJP, 12h, 16h (heure où demain passe dans le plugin de Non défini à EJP ou Non EJP. Si c’est Non EJP ce n’est pas définitif et peut être changé jusqu'à 5h du matin), 17h, 19h et 22h.
 
 Apercu de l'équipement Ejp:
 
