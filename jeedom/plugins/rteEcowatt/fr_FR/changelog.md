@@ -9,6 +9,10 @@ Plugin utilisant l'API Rte.
 <!-- >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 -->
 
+### 06/11/2022 Version stable
+
+- Elle inclut toutes les corrections des versions beta ci-dessous.
+
 ### 05/11/2022 19:06:09 Beta
 - Correction mineures sur Tempo et EJP.
 
