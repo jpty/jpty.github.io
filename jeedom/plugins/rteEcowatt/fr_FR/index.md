@@ -6,7 +6,7 @@ Plugin utilisant les API Rte Ecowatt et Tempo pour extraire les données.
 
 > Pour une procédure d'installation plus détaillée, voir le site [MiniProjets.net](https://miniprojets.net/index.php/2022/10/13/plugin-rteecowatt-ou-comment-preparer-sa-domotique-a-la-reduction-denergie/) Merci à [Ferrader](https://community.jeedom.com/u/ferrader)
 
-## Prérequis chez Rte
+## Prérequis chez Rte pour Ecowatt et Tempo
 
 Le plugin nécessite un compte sur le site [**data.rte-france**](https://data.rte-france.com) Cliquez sur "Se connecter" pour la création d'un nouveau compte ou l'utilisation d'un compte existant.
 - Sur cette page: [**API Ecowatt**](https://data.rte-france.com/catalog/-/api/consumption/Ecowatt/v4.0), cliquez sur "Abonnez-vous à l'API"
@@ -14,11 +14,14 @@ Le plugin nécessite un compte sur le site [**data.rte-france**](https://data.rt
 - Pour utiliser Tempo, cliquez sur "Abonnez-vous à l'API" sur la page: [**API Tempo**](https://data.rte-france.com/catalog/-/api/consumption/Tempo-Like-Supply-Contract/v1.1) Rattachez cette API à la même application qu'Ecowatt.
 - Dans la rubrique "Mes applications" cliquez sur votre application. En cliquant sur le bouton "Copier en base 64", vos ID client et ID secret encodés en base 64, pourront être collés dans la configuration du plugin. 
 
+## Aucun prérequis pour EJP
+Le plugin va chercher les infos EJP sur le site [**EDF**](https://particulier.edf.fr/fr/accueil/gestion-contrat/options/ejp.html).
+
 ## Configuration
 
 Après installation du plugin, il vous suffit de l’activer.
 Il apparaitra alors dans le menu *Plugins > Energie*
-- Collez l'ID client et l'ID secret encodés en base64 dans la configuration.
+- Collez l'ID client et l'ID secret encodés en base64 dans la configuration du plugin.
 
 ## Utilisation
 ### Type Ecowatt (RTE):
@@ -51,7 +54,7 @@ Apercu de l'équipement Tempo:
 <img src="../images/TempoTuile.png">
 
 ### Type Ejp (EDF):
-- Ce nouveau type d'équipement n'utilise pas une API RTE. La source utilisée est le site Web d'EDF.
+- Ce type d'équipement n'utilise pas d'API RTE. La source utilisée est le site Web d'EDF.
 - 3 commandes: Aujourd'hui, demain et EJP restants. Les valeurs possibles pour Aujourd'hui et demain sont EJP, NOT_EJP, UNDEFINED, ERROR et OUT_OF_PERIOD.
 - Le plugin interroge EDF à 1h(heure de fin d’un jour EJP), 6h(avant le début d’un jour EJP, 12h, 16h (heure où demain passe dans le plugin de Non défini à EJP ou Non EJP. Si c’est Non EJP ce n’est pas définitif et peut être changé jusqu'à 5h du matin), 17h, 19h et 22h.
 
