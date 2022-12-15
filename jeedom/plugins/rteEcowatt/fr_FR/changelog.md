@@ -8,6 +8,10 @@ Plugin utilisant l'API Rte.
 
 <!-- >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 -->
+### 15/12/2022 Beta
+#### Ecowatt
+- Ajout dans les messages d'alerte niveau 2 ou 3, d'un lien vers le site d'Enedis pour connaitre les lieux de coupure d'électricité.
+A utiliser quand il y aura une alerte de niveau 3.
 
 ### 06/11/2022 Version stable
 
