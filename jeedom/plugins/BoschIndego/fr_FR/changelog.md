@@ -8,6 +8,9 @@ Commande et surveillance des robots tondeuse Bosch Indego.
 
 >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 
+### 01/03/2023
+- Bosch a changé le mode d'accès au cloud des tondeuses Indego. Actuellement, le plugin n'est plus fonctionnel.
+
 ### 20/05/2022
 - Correction de l'erreur 403 lors du test de connexion dans la configuration du plugin suite à des modifications coté Bosch.
 Correction faite en v4 uniquement. Si vous utilisez encore Jeedom v3 demandez-moi la correction.
