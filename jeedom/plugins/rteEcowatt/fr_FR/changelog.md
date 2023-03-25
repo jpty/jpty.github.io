@@ -8,6 +8,22 @@ Plugin utilisant l'API Rte.
 
 <!-- >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 -->
+### 25/03/2023 Beta en approche
+
+#### EDF EJP
+- Gestion de la fin de saison EJP le 1er avril. Reprise le 1er novembre. Pendant cette période, les jours seront bleus. Il n'y aura pas de récupération de données chez EDF.
+
+#### RTE Tempo
+- Ajout de la commande "Maintenant" qui donne la couleur actuelle de Tempo. La valeur de cette commande change à 6h et 22h. Les valeurs possibles de cette commande sont: HPJB, HCJB, HPJW, HCJW, HPJR et HCJR ( Alignement sur le plugin suiviconso )
+- Changement de l'interrogation de RTE. Auparavant à chaque requéte, la période du 1er septembre à aujourd'hui était demandée à RTE. Le nombre de jours par couleur était compté. A compter de cette version, après une dernière demande de la saison complète chez RTE, seule la couleur des jours inconnus sera demandée. Les données de la saison récupèrées chez RTE sont stockées dans le fichier plugins/rteEcowatt/data/dataTempo.json
+
+#### RTE Ecowatt
+- Pas de modification. L'hiver s'est terminé sans alerte rouge ou orange. Vous pouvez désactiver vos équipements Ecowatt (RTE) et reprendre une activité normale ;-).
+
+#### Divers
+- Le cronHourly n'est utilisé que pour la commande RTE Tempo Maintenant. Tous les autres équipements utilisent le cron dédié pullDataEcowatt pour répartir la charge sur les serveurs EDF et RTE.
+- Ajout  dans le titre des équipements d'un i permettant d'accéder à plus d'info sur les sites Web de RTE ou EDF
+
 ### 15/12/2022 Beta
 #### Ecowatt
 - Ajout dans les messages d'alerte niveau 2 ou 3, d'un lien vers le site d'Enedis pour connaitre les lieux de coupure d'électricité.
