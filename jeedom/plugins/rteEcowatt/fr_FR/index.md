@@ -12,7 +12,7 @@ Le plugin nécessite un compte sur le site [**data.rte-france**](https://data.rt
 - Sur cette page: [**API Ecowatt**](https://data.rte-france.com/catalog/-/api/consumption/Ecowatt/v4.0), cliquez sur "Abonnez-vous à l'API"
 - Rattachez ensuite cette API à une application existante ou créez une nouvelle application.
 - Pour utiliser Tempo, cliquez sur "Abonnez-vous à l'API" sur la page: [**API Tempo**](https://data.rte-france.com/catalog/-/api/consumption/Tempo-Like-Supply-Contract/v1.1) Rattachez cette API à la même application qu'Ecowatt.
-- Pour utiliser Consommation, cliquez sur "Abonnez-vous à l'API" sur la page: [**API Consumption**](https://data.rte-france.com/catalog/-/api/consumption/Consumption/v1.2)) Rattachez cette API à la même application qu'Ecowatt.
+- Pour utiliser Consommation, cliquez sur "Abonnez-vous à l'API" sur la page: [**API Consumption**](https://data.rte-france.com/catalog/-/api/consumption/Consumption/v1.2) Rattachez cette API à la même application qu'Ecowatt.
 - Dans la rubrique "Mes applications" cliquez sur votre application. En cliquant sur le bouton "Copier en base 64", vos ID client et ID secret encodés en base 64, pourront être collés dans la configuration du plugin. 
 
 ## Aucun prérequis pour EJP
@@ -49,6 +49,7 @@ Créez un équipement. Les données se synchronisent à 11 heures (Rte publie à
 
 Les commandes pour les scénarios sont Aujourdhui et Demain.
 Les valeurs possibles de ces 2 commandes sont: BLUE, WHITE, RED et UNDEFINED
+La commande Maintenant peut avoir les valeurs HPJB, HCJB, HPJW, HCJW, HPJR et HCJR suivant l'heure du jour (HP de 6h à 22h, HC de 22h à 6h le lendemain) et la couleur Tempo du jour.
 
 Apercu de l'équipement Tempo:
 
@@ -61,11 +62,11 @@ Apercu de l'équipement Tempo:
 
 Apercu de l'équipement Ejp:
 
-<img src="../images/EjpTuile.png">
+<img src="../images/EjpTuile.png"> <img src="../images/EjpTuileHorsSaison.png">
 
 ### Type Consommation RTE
 - Ce type d'équipememnt utilise l'API Consumtion de RTE. Voir les prérequis.
-- Les commandes: Consommation réalisée et 3 commandes avec des prévisions de consommation
+- Les commandes: Consommation réalisée et 3 commandes avec des prévisions de consommation.
 - Dans le titre de la fenétre, un lien vers le site [**éCO2mix**](https://www.rte-france.com/eco2mix).
 
 Apercu de l'équipement Consommation aprés quelques jours de focntionnement le temps que les historiques des commandes se remplissent.
