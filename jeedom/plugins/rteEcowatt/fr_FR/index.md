@@ -67,7 +67,7 @@ Apercu de l'équipement Ejp:
 ### Type Consommation RTE
 - Ce type d'équipememnt utilise l'API Consumtion de RTE. Voir les prérequis.
 - Les commandes: Consommation réalisée et 3 commandes avec des prévisions de consommation.
-- Dans le titre de la fenétre, un lien vers le site [**éCO2mix**](https://www.rte-france.com/eco2mix).
+- Dans le titre de la fenêtre, un lien vers le site [**éCO2mix**](https://www.rte-france.com/eco2mix).
 
 Apercu de l'équipement Consommation aprés quelques jours de focntionnement le temps que les historiques des commandes se remplissent.
 <img src="../images/rteConsommation.png">
