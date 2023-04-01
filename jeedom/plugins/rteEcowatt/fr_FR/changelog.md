@@ -8,7 +8,7 @@ Plugin utilisant l'API Rte.
 
 <!-- >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 -->
-### 25/03/2023 Beta en approche
+### 01/04/2023 beta en approche
 
 #### EDF EJP
 - Gestion de la fin de saison EJP le 1er avril. Reprise le 1er novembre. Pendant cette période, les jours seront bleus. Il n'y aura pas de récupération de données chez EDF.
@@ -19,6 +19,9 @@ Plugin utilisant l'API Rte.
 
 #### RTE Ecowatt
 - Pas de modification. L'hiver s'est terminé sans alerte rouge ou orange. Vous pouvez désactiver vos équipements Ecowatt (RTE) et reprendre une activité normale ;-).
+
+#### RTE Consommation
+- Ajout de ce nouveau type d'équipement. La source des données est RTE. L'abonnement à l'API RTE Consumption est nécessaire.
 
 #### Divers
 - Le cronHourly n'est utilisé que pour la commande RTE Tempo Maintenant. Tous les autres équipements utilisent le cron dédié pullDataEcowatt pour répartir la charge sur les serveurs EDF et RTE.
