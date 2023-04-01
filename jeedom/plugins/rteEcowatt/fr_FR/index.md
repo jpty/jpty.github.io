@@ -48,8 +48,9 @@ Les tuiles en mode demo permettent de tester vos scénarios avant l'arrivée des
 Créez un équipement. Les données se synchronisent à 11 heures (Rte publie à 10h40) et en rattapage à 12h et 14h.
 
 Les commandes pour les scénarios sont Aujourdhui et Demain.
-Les valeurs possibles de ces 2 commandes sont: BLUE, WHITE, RED et UNDEFINED
-La commande Maintenant peut avoir les valeurs HPJB, HCJB, HPJW, HCJW, HPJR et HCJR suivant l'heure du jour (HP de 6h à 22h, HC de 22h à 6h le lendemain) et la couleur Tempo du jour.
+Les valeurs possibles de ces 2 commandes sont: BLUE, WHITE, RED et UNDEFINED.
+
+La commande "Maintenant" peut avoir les valeurs HPJB, HCJB, HPJW, HCJW, HPJR et HCJR suivant l'heure du jour (HP de 6h à 22h, HC de 22h à 6h le lendemain) et la couleur Tempo du jour.
 
 Apercu de l'équipement Tempo:
 
@@ -67,7 +68,7 @@ Apercu de l'équipement Ejp:
 ### Type Consommation RTE
 - Ce type d'équipememnt utilise l'API Consumtion de RTE. Voir les prérequis.
 - Les commandes: Consommation réalisée et 3 commandes avec des prévisions de consommation.
-- Dans le titre de la fenêtre, un lien vers le site [**éCO2mix**](https://www.rte-france.com/eco2mix).
+- Dans le titre de la fenêtre, un lien vers le site [**éCO2mix**](https://www.rte-france.com/eco2mix) avec des infos intéressantes sur les sources de production, consommation, importation/exportation...
 
 Apercu de l'équipement Consommation aprés quelques jours de focntionnement le temps que les historiques des commandes se remplissent.
 <img src="../images/rteConsommation.png">
