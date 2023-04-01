@@ -61,7 +61,7 @@ Apercu de l'équipement Tempo:
 
 Apercu de l'équipement Ejp:
 
-<img src="../images/RteConsommation.png">
+<img src="../images/EjpTuile.png">
 
 ### Type Consommation RTE
 - Ce type d'équipememnt utilise l'API Consumtion de RTE. Voir les prérequis.
