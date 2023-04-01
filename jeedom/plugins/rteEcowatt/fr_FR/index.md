@@ -69,7 +69,7 @@ Apercu de l'équipement Ejp:
 - Dans le titre de la fenétre, un lien vers le site [**éCO2mix**](https://www.rte-france.com/eco2mix).
 
 Apercu de l'équipement Consommation aprés quelques jours de focntionnement le temps que les historiques des commandes se remplissent.
-<img src="../images/RteConsommation.png">
+<img src="../images/rteConsommation.png">
 
 ### Guides d'utilisation des APIs:
 - [**Ecowatt**](https://data.rte-france.com/catalog/-/api/doc/user-guide/Ecowatt/4.0)
