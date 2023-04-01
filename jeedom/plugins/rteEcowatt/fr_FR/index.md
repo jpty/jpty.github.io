@@ -6,12 +6,13 @@ Plugin utilisant les API Rte Ecowatt et Tempo pour extraire les données.
 
 > Pour une procédure d'installation plus détaillée, voir le site [MiniProjets.net](https://miniprojets.net/index.php/2022/10/13/plugin-rteecowatt-ou-comment-preparer-sa-domotique-a-la-reduction-denergie/) Merci à [Ferrader](https://community.jeedom.com/u/ferrader)
 
-## Prérequis chez Rte pour Ecowatt et Tempo
+## Prérequis chez RTE pour Ecowatt, Tempo et Consommation
 
 Le plugin nécessite un compte sur le site [**data.rte-france**](https://data.rte-france.com) Cliquez sur "Se connecter" pour la création d'un nouveau compte ou l'utilisation d'un compte existant.
 - Sur cette page: [**API Ecowatt**](https://data.rte-france.com/catalog/-/api/consumption/Ecowatt/v4.0), cliquez sur "Abonnez-vous à l'API"
 - Rattachez ensuite cette API à une application existante ou créez une nouvelle application.
 - Pour utiliser Tempo, cliquez sur "Abonnez-vous à l'API" sur la page: [**API Tempo**](https://data.rte-france.com/catalog/-/api/consumption/Tempo-Like-Supply-Contract/v1.1) Rattachez cette API à la même application qu'Ecowatt.
+- Pour utiliser Consommation, cliquez sur "Abonnez-vous à l'API" sur la page: [**API Consumption**](https://data.rte-france.com/catalog/-/api/consumption/Consumption/v1.2)) Rattachez cette API à la même application qu'Ecowatt.
 - Dans la rubrique "Mes applications" cliquez sur votre application. En cliquant sur le bouton "Copier en base 64", vos ID client et ID secret encodés en base 64, pourront être collés dans la configuration du plugin. 
 
 ## Aucun prérequis pour EJP
@@ -60,11 +61,20 @@ Apercu de l'équipement Tempo:
 
 Apercu de l'équipement Ejp:
 
-<img src="../images/EjpTuile.png">
+<img src="../images/RteConsommation.png">
+
+### Type Consommation RTE
+- Ce type d'équipememnt utilise l'API Consumtion de RTE. Voir les prérequis.
+- Les commandes: Consommation réalisée et 3 commandes avec des prévisions de consommation
+- Dans le titre de la fenétre, un lien vers le site [**éCO2mix**](https://www.rte-france.com/eco2mix).
+
+Apercu de l'équipement Consommation aprés quelques jours de focntionnement le temps que les historiques des commandes se remplissent.
+<img src="../images/RteConsommation.png">
 
 ### Guides d'utilisation des APIs:
 - [**Ecowatt**](https://data.rte-france.com/catalog/-/api/doc/user-guide/Ecowatt/4.0)
 - [**Tempo**](https://data.rte-france.com/catalog/-/api/doc/user-guide/Tempo+Like+Supply+Contract/1.1)
+- [**Consumption**](https://data.rte-france.com/catalog/-/api/doc/user-guide/Consumption/1.2)
 
 
 [Changelog](changelog.md)
