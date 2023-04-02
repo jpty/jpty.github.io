@@ -8,7 +8,7 @@ Plugin utilisant l'API Rte.
 
 <!-- >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 -->
-### 01/04/2023 beta en approche
+### 02/04/2023 beta
 
 #### EDF EJP
 - Gestion de la fin de saison EJP le 1er avril. Reprise le 1er novembre. Pendant cette période, les jours seront bleus. Il n'y aura pas de récupération de données chez EDF.
