@@ -8,10 +8,13 @@ Plugin utilisant l'API Rte.
 
 <!-- >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 -->
-### 05/04/2023 beta
+### 08/04/2023 Version stable
+- Elle inclut toutes les corrections des versions beta ci-dessous.
+
+### 05/04/2023 Beta
 - Correction des templates pour Jeedom v4.4
 
-### 02/04/2023 beta
+### 02/04/2023 Beta
 
 #### EDF EJP
 - Gestion de la fin de saison EJP le 1er avril. Reprise le 1er novembre. Pendant cette période, les jours seront bleus. Il n'y aura pas de récupération de données chez EDF.
