@@ -45,7 +45,8 @@ Apercu des différents templates:
 Les tuiles en mode demo permettent de tester vos scénarios avant l'arrivée des alertes réelles.
 
 ### Type Tempo (RTE):
-Créez un équipement. Les données se synchronisent à 11 heures (Rte publie à 10h40) et en rattapage à 12h et 14h.
+Créez un équipement. Les données se synchronisent à 11 heures (Rte publie à 10h40).
+Le plugin interroge RTE chaque heure entre 11h et 23h jusqu’à ce qu’il obtienne une réponse exploitable en JSON. Si à 11h, la réponse est correcte, le plugin ne réinterrogera pas RTE de la journée.
 
 Les commandes pour les scénarios sont Aujourdhui et Demain.
 Les valeurs possibles de ces 2 commandes sont: BLUE, WHITE, RED et UNDEFINED.
