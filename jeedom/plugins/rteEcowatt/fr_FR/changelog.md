@@ -8,8 +8,23 @@ Plugin utilisant l'API Rte.
 
 <!-- >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 -->
+### 11/03/2024 Prochaine version beta
+#### RTE Tempo
+- Correction du changement de saison le 1er septembre.
+- Possibilité de choisir un template pour l'affichage sur le dashboard.
+- Ajout des commandes yesterday, yesterdayDatetime et cmdJsonForWidget.
+- Ajout dans la configuration du plugin de la possibilité d'ajouter manuellement les prix des kWh. Le template rte_tempoAvecPrix doit alors être sélectionné.
+- Interrogation de RTE dés 10h30 selon le cron défini dans le moteur des taches. 
+
+#### RTE Ecowatt
+- Passage à l'API v5. Cela nécessite de vous abonner à cette API sur votre compte RTE.
+- Ajout des jours décarbonés en vert foncé.
+
+#### EDF EJP, EDF TEMPO
+- Augmentation à 20s du timeout de connexion au site edf.fr
+  
 ### 08/04/2023 Version stable
-- Elle inclut toutes les corrections des versions beta ci-dessous.
+- Elle inclut toutes les corrections des versi1ons beta ci-dessous.
 
 ### 05/04/2023 Beta
 - Correction des templates pour Jeedom v4.4
@@ -17,7 +32,7 @@ Plugin utilisant l'API Rte.
 ### 02/04/2023 Beta
 
 #### EDF EJP
-- Gestion de la fin de saison EJP le 1er avril. Reprise le 1er novembre. Pendant cette période, les jours seront bleus. Il n'y aura pas de récupération de données chez EDF.
+- Gestion de la fin de saison EJP le 1er avril. Reprise le 1er novembre. Pendant cette période, les jours seront verts. Il n'y aura pas de récupération de données chez EDF.
 
 #### RTE Tempo
 - Ajout de la commande "Maintenant" qui donne la couleur actuelle de Tempo. La valeur de cette commande change à 6h et 22h. Les valeurs possibles de cette commande sont: HPJB, HCJB, HPJW, HCJW, HPJR et HCJR ( Alignement sur le plugin suiviconso )
