@@ -8,13 +8,13 @@ Plugin utilisant l'API Rte.
 
 <!-- >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 -->
-### 11/03/2024 Prochaine version beta
+### 12/03/2024 Prochaine version beta
 #### RTE Tempo
 - Correction du changement de saison le 1er septembre.
 - Possibilité de choisir un template pour l'affichage sur le dashboard.
 - Ajout des commandes yesterday, yesterdayDatetime et cmdJsonForWidget.
-- Ajout dans la configuration du plugin de la possibilité d'ajouter manuellement les prix des kWh. Le template rte_tempoAvecPrix doit alors être sélectionné.
-- Interrogation de RTE dés 10h30 selon le cron défini dans le moteur des taches. 
+- Ajout dans la configuration du plugin de la possibilité d'ajouter manuellement les prix des kWh. La date de valis=dité des prix doit être renseignée. "Affichage des prix" doit être coché dans la configuration de l'équipement.
+- Interrogation de RTE dés 10h31 (heure de publication par RTE) selon le cron défini dans le moteur des taches. 
 
 #### RTE Ecowatt
 - Passage à l'API v5. Cela nécessite de vous abonner à cette API sur votre compte RTE.
