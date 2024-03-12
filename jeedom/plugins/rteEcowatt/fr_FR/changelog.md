@@ -14,7 +14,8 @@ Plugin utilisant l'API Rte.
 - Possibilité de choisir un template pour l'affichage sur le dashboard.
 - Ajout des commandes yesterday, yesterdayDatetime et cmdJsonForWidget.
 - Ajout dans la configuration du plugin de la possibilité d'ajouter manuellement les prix des kWh. La date de valis=dité des prix doit être renseignée. "Affichage des prix" doit être coché dans la configuration de l'équipement.
-- Interrogation de RTE dés 10h31 (heure de publication par RTE) selon le cron défini dans le moteur des taches. 
+- Interrogation de RTE dés 10h31 (heure de publication par RTE) selon le cron défini dans le moteur des taches.
+- Couleurs en accord avec le site RTE. La couleur UNDEFINED est: gris (orange avant).
 
 #### RTE Ecowatt
 - Passage à l'API v5. Cela nécessite de vous abonner à cette API sur votre compte RTE.
