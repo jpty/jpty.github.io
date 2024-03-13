@@ -8,7 +8,7 @@ Plugin utilisant l'API Rte.
 
 <!-- >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 -->
-### 12/03/2024 Prochaine version beta
+### --/--/---- Prochaine version beta
 #### RTE Tempo
 - Correction du changement de saison le 1er septembre.
 - Possibilité de choisir un template pour l'affichage sur le dashboard.
