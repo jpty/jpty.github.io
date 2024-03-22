@@ -8,12 +8,12 @@ Plugin utilisant l'API Rte.
 
 <!-- >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 -->
-### --/--/---- Prochaine version beta
+### 22/03/2024 Version beta
 #### RTE Tempo
 - Correction du changement de saison le 1er septembre.
 - Possibilité de choisir un template pour l'affichage sur le dashboard.
 - Ajout des commandes yesterday, yesterdayDatetime et cmdJsonForWidget.
-- Ajout dans la configuration du plugin de la possibilité d'ajouter manuellement les prix des kWh. La date de valis=dité des prix doit être renseignée. "Affichage des prix" doit être coché dans la configuration de l'équipement.
+- Ajout dans la configuration du plugin de la possibilité d'ajouter manuellement les prix des kWh. La date de validité des prix doit être renseignée. "Affichage des prix" doit être coché dans la configuration de l'équipement.
 - Interrogation de RTE dés 10h31 (heure de publication par RTE) selon le cron défini dans le moteur des taches.
 - Couleurs en accord avec le site RTE. La couleur UNDEFINED est: gris (orange avant).
 
