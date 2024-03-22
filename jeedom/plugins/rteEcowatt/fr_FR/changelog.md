@@ -9,7 +9,7 @@ Plugin utilisant l'API Rte.
 <!-- >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 -->
 ### 22/03/2024 Version beta
-#### RTE Tempo
+#### - RTE Tempo
 - Correction du changement de saison le 1er septembre.
 - Possibilité de choisir un template pour l'affichage sur le dashboard.
 - Ajout des commandes yesterday, yesterdayDatetime et cmdJsonForWidget.
@@ -17,11 +17,11 @@ Plugin utilisant l'API Rte.
 - Interrogation de RTE dés 10h31 (heure de publication par RTE) selon le cron défini dans le moteur des taches.
 - Couleurs en accord avec le site RTE. La couleur UNDEFINED est: gris (orange avant).
 
-#### RTE Ecowatt
+#### - RTE Ecowatt
 - Passage à l'API v5. Cela nécessite de vous abonner à cette API sur votre compte RTE.
 - Ajout des jours décarbonés en vert foncé.
 
-#### EDF EJP, EDF TEMPO
+#### - EDF EJP, EDF TEMPO
 - Augmentation à 20s du timeout de connexion au site edf.fr
   
 ### 08/04/2023 Version stable
