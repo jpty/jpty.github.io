@@ -12,7 +12,7 @@ Plugin utilisant l'API Rte.
 #### - RTE Tempo
 - Centralisation des couleurs Tempo.
 - Modif pour Php 8 (unset de la valeur retournée par curl_init)
-- Ajout dans la commande des jours restants, jours totaux et des couleurs Tempos définies par le plugin.
+- Ajout dans la commande jsonCmdForWidget des jours restants, jours totaux et des couleurs Tempos définies par le plugin.
 - Réduction de la hauteur du template du plugin pour s'adapter au pas mini des tuiles de 60px en version 4.4 de Jeedom. Fourniture du template rte_tempo.Full
 - Ajout du widget cmd.info.string.TempoPrices.html Affecté à une commande d'un virtuel qui utilise la commande cmdJsonForWidget du plugin, il permet l'affichage des prix Tempo.
 
