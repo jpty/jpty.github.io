@@ -8,6 +8,16 @@ Plugin utilisant l'API Rte.
 
 <!-- >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 -->
+### 25/03/2024 Version beta
+#### - RTE Tempo
+- Centralisation des couleurs Tempo.
+- Modif pour Php 8 (unset de la valeur retournée par curl_init)
+- Ajout dans la commande des jours restants, jours totaux et des couleurs Tempos définies par le plugin.
+- Réduction de la hauteur du template du plugin. Fourniture du template rte_tempo.Full
+- Ajout du widget cmd.info.string.TempoPrices.html Affecté à une commande d'un virtuel qui utilise la commande cmdJsonForWidget du plugin, il permet l'affichage des prix Tempo.
+#### - RTE Consommation
+- Ajout de la couleur des jours Tempo dans le graphique des consommations France afin d'essayer de faire un lien entre couleur et consommation.
+  
 ### 22/03/2024 Version beta
 #### - RTE Tempo
 - Correction du changement de saison le 1er septembre.
@@ -16,7 +26,6 @@ Plugin utilisant l'API Rte.
 - Ajout dans la configuration du plugin de la possibilité d'ajouter manuellement les prix des kWh. La date de validité des prix doit être renseignée. "Affichage des prix" doit être coché dans la configuration de l'équipement.
 - Interrogation de RTE dés 10h31 (heure de publication par RTE) selon le cron défini dans le moteur des taches.
 - Couleurs en accord avec le site RTE. La couleur UNDEFINED est: gris (orange avant).
-
 #### - RTE Ecowatt
 - Passage à l'API v5. Cela nécessite de vous abonner à cette API sur votre compte RTE.
 - Ajout des jours décarbonés en vert foncé.
