@@ -15,6 +15,7 @@ Plugin utilisant l'API Rte.
 - Ajout dans la commande des jours restants, jours totaux et des couleurs Tempos définies par le plugin.
 - Réduction de la hauteur du template du plugin pour s'adapter au pas mini des tuiles de 60px en version 4.4 de Jeedom. Fourniture du template rte_tempo.Full
 - Ajout du widget cmd.info.string.TempoPrices.html Affecté à une commande d'un virtuel qui utilise la commande cmdJsonForWidget du plugin, il permet l'affichage des prix Tempo.
+
 #### - RTE Consommation
 - Ajout de la couleur des jours Tempo dans le graphique des consommations France afin d'essayer de faire un lien entre couleur et consommation.
   
