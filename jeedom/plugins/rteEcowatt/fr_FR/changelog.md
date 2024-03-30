@@ -8,6 +8,11 @@ Plugin utilisant l'API Rte.
 
 <!-- >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 -->
+### 29/03/2024 Version beta
+- Ajout du widget cmd.info.string.widget4JsonCmdByPhpvarious.html à affecter à la commande jsonCmdForWidget.
+- Ajout / correction des widgets pour mobile.
+
+
 ### 25/03/2024 Version beta
 #### - RTE Tempo
 - Centralisation des couleurs Tempo.
