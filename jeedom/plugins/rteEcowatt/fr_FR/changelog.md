@@ -8,6 +8,10 @@ Plugin utilisant l'API Rte.
 
 <!-- >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 -->
+### 30/03/2024 Version stable
+- Elle inclut toutes les corrections des versions beta ci-dessous.
+
+  
 ### 29/03/2024 Version beta
 - Ajout du widget cmd.info.string.widget4JsonCmdByPhpvarious.html à affecter à la commande jsonCmdForWidget.
 - Ajout / correction des widgets pour mobile.
@@ -40,7 +44,7 @@ Plugin utilisant l'API Rte.
 - Augmentation à 20s du timeout de connexion au site edf.fr
   
 ### 08/04/2023 Version stable
-- Elle inclut toutes les corrections des versi1ons beta ci-dessous.
+- Elle inclut toutes les corrections des versions beta ci-dessous.
 
 ### 05/04/2023 Beta
 - Correction des templates pour Jeedom v4.4
