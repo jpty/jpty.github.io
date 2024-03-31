@@ -82,7 +82,7 @@ Apercu de l'équipement Ejp:
 - Les commandes: Consommation réalisée et 3 commandes avec des prévisions de consommation.
 - Dans le titre de la fenêtre, un lien vers le site [**éCO2mix**](https://www.rte-france.com/eco2mix) avec des infos intéressantes sur les sources de production, consommation, importation/exportation...
 
-Apercu de l'équipement Consommation aprés quelques jours de focntionnement le temps que les historiques des commandes se remplissent.
+Apercu de l'équipement Consommation aprés quelques jours de fonctionnement le temps que les historiques des commandes se remplissent.
 <img src="../images/rteConsommation.png">
 
 ### Guides d'utilisation des APIs:
