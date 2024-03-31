@@ -58,8 +58,9 @@ La commande "Maintenant" peut avoir les valeurs HPJB, HCJB, HPJW, HCJW, HPJR et 
 Apercu des différents templates du plugin:
 
 <img src="../images/TempoRTETuiles.png">
-
-- En haut à droite, pas de template mais le widget cmd.info.string.Widget4JsonCmdByPhpvarious.html affecté à la commande jsonCmdForWidget. Merci David [@Phpvarious](https://github.com/Phpvarious)
+- En haut à gauche, le template Full.
+- En haut à droite, pas de template mais le widget cmd.info.string.Widget4JsonCmdByPhpvarious.html affecté à la commande jsonCmdForWidget. Le widget est modifiable via ses paramètres optionnels. Merci David [@Phpvarious](https://github.com/Phpvarious)
+- En bas à gauche, le template du plugin. Les informations sont visibles au survol du texte de la couleur actuelle. Les prix sont affichables.
 - En bas à droite, la commande jsonCmdForWidget dans un virtuel avec le widget cmd.info.string.TempoPrices.html
 
 
