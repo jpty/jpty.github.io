@@ -47,8 +47,8 @@ Apercu des différents templates:
 Les tuiles en mode demo permettent de tester vos scénarios avant l'arrivée des alertes réelles.
 
 ### Type Tempo (RTE):
-Créez un équipement. Les données se synchronisent à 11 heures (Rte publie à 10h40).
-Le plugin interroge RTE chaque heure entre 11h et 23h jusqu’à ce qu’il obtienne une réponse exploitable en JSON. Si à 11h, la réponse est correcte, le plugin ne réinterrogera pas RTE de la journée.
+Créez un équipement. Les données se synchronisent à partir de 10h31 suivant l'horaire défini par la tâche cron pullDataEcowatt. (Rte publie à 10h30).
+Le plugin interroge RTE chaque heure entre 10h et 23h jusqu’à ce qu’il obtienne une réponse exploitable en JSON. Dès que la réponse est correcte, le plugin ne réinterroge plus RTE de la journée.
 
 Les commandes pour les scénarios sont Aujourdhui et Demain.
 Les valeurs possibles de ces 2 commandes sont: BLUE, WHITE, RED et UNDEFINED.
@@ -67,7 +67,7 @@ Apercu des différents templates du plugin:
 ### Type Tempo (EDF):
 - Ce type d'équipement n'utilise pas d'API RTE. La source utilisée est le site Web d'EDF.
 - Les commandes: Aujourd'hui, demain et pour chaque couleur, le nombre total de jour et le nombre de jours restants. Les valeurs possibles pour Aujourd'hui et demain sont BLUE, WHITE, RED, UNDEFINED et ERROR.
-- Le plugin interroge EDFà 0hxx, 11hxx, 12hxx, 14hxx, 16hxx. xx est défini par la tâche cron pullDataEcowatt 
+- Le plugin interroge EDFà 0h*xx*, 11h*xx*, 12h*xx*, 14h*xx*, 16h*xx*. *xx* est défini par la tâche cron pullDataEcowatt 
 
 Apercu de l'équipement Tempo EDF:
 
