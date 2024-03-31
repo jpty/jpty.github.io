@@ -55,9 +55,9 @@ Les valeurs possibles de ces 2 commandes sont: BLUE, WHITE, RED et UNDEFINED.
 
 La commande "Maintenant" peut avoir les valeurs HPJB, HCJB, HPJW, HCJW, HPJR et HCJR suivant l'heure du jour (HP de 6h à 22h, HC de 22h à 6h le lendemain) et la couleur Tempo du jour.
 
-Apercu de l'équipement Tempo:
+Apercu des diiférents template du plugin:
 
-<img src="../images/TempoTuile.png">
+<img src="../images/TempoRTETuiles.png">
 
 ### Type Tempo (EDF):
 - Ce type d'équipement n'utilise pas d'API RTE. La source utilisée est le site Web d'EDF.
