@@ -59,6 +59,15 @@ Apercu de l'équipement Tempo:
 
 <img src="../images/TempoTuile.png">
 
+### Type Tempo (EDF):
+- Ce type d'équipement n'utilise pas d'API RTE. La source utilisée est le site Web d'EDF.
+- Les commandes: Aujourd'hui, demain et pour chaque couleur, le nombre total de jour et le nombre de jours restants. Les valeurs possibles pour Aujourd'hui et demain sont BLUE, WHITE, RED, UNDEFINED et ERROR.
+- Le plugin interroge EDFà 0hxx, 11hxx, 12hxx, 14hxx, 16hxx. xx est défini par la tâche cron pullDataEcowatt 
+
+Apercu de l'équipement Tempo EDF:
+
+<img src="../images/TempoEDFTuile.png">
+
 ### Type Ejp (EDF):
 - Ce type d'équipement n'utilise pas d'API RTE. La source utilisée est le site Web d'EDF.
 - 3 commandes: Aujourd'hui, demain et EJP restants. Les valeurs possibles pour Aujourd'hui et demain sont EJP, NOT_EJP, UNDEFINED, ERROR et OUT_OF_PERIOD.
