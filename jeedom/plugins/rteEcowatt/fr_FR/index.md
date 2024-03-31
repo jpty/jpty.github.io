@@ -29,10 +29,11 @@ Il apparaitra alors dans le menu *Plugins > Energie*
 Créez un équipement. L'affichage est mis à jour au début de chaque heure. Les données se synchronisent chaque heure par le cron dédié. Selon la fréquence à laquelle Rte mettra à jour ses données, (aujourd'hui, c'est une fois par jour car pas d'alerte ), il faudra peut-être corriger la tâche du cron dédié pour s'adapter. 
 
 Utilisez la commande "Valeur maintenant" comme déclencheur de scénario pour créer des alertes ou faire des actions de réduction de votre consommation électrique. Les valeurs possibles de cette commande sont:
+- 0 pour le niveau vert foncé: Production décarbonée.
 - 1 pour le niveau vert: Consommation normale
 - 2 orange: Système électrique tendu. Les écogestes sont les bienvenus 
 - 3 rouge: Système électrique très tendu. Coupures inévitables si nous ne baissons pas notre consommation 
-- 0 uniquement pour le plugin quand il y a eu un problème de récupération ou quand la valeur n'est pas définie (Ex: la sandbox le 3 juin de 0h à 7h)
+- -1 uniquement pour le plugin quand il y a eu un problème de récupération ou quand la valeur n'est pas définie (Ex: la sandbox le 7 juin de 0h à 7h)
 
 Apercu de 2 équipements Ecowatt:
 
@@ -75,7 +76,7 @@ Apercu de l'équipement Consommation aprés quelques jours de focntionnement le 
 <img src="../images/rteConsommation.png">
 
 ### Guides d'utilisation des APIs:
-- [**Ecowatt**](https://data.rte-france.com/catalog/-/api/doc/user-guide/Ecowatt/4.0)
+- [**Ecowatt**](https://data.rte-france.com/catalog/-/api/doc/user-guide/Ecowatt/5.0)
 - [**Tempo**](https://data.rte-france.com/catalog/-/api/doc/user-guide/Tempo+Like+Supply+Contract/1.1)
 - [**Consumption**](https://data.rte-france.com/catalog/-/api/doc/user-guide/Consumption/1.2)
 
