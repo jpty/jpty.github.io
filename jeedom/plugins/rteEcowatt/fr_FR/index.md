@@ -55,9 +55,13 @@ Les valeurs possibles de ces 2 commandes sont: BLUE, WHITE, RED et UNDEFINED.
 
 La commande "Maintenant" peut avoir les valeurs HPJB, HCJB, HPJW, HCJW, HPJR et HCJR suivant l'heure du jour (HP de 6h à 22h, HC de 22h à 6h le lendemain) et la couleur Tempo du jour.
 
-Apercu des diiférents template du plugin:
+Apercu des différents templates du plugin:
 
 <img src="../images/TempoRTETuiles.png">
+
+- En haut à droite, pas de template mais le widget cmd.info.string.Widget4JsonCmdByPhpvarious.html affecté à la commande jsonCmdForWidget. Merci David [@Phpvarious](https://github.com/Phpvarious)
+- En bas à droite, la commande jsonCmdForWidget dans un virtuel avec le widget cmd.info.string.TempoPrices.html
+
 
 ### Type Tempo (EDF):
 - Ce type d'équipement n'utilise pas d'API RTE. La source utilisée est le site Web d'EDF.
