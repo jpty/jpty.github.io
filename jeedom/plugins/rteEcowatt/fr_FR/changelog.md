@@ -8,6 +8,9 @@ Plugin utilisant l'API Rte.
 
 <!-- >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 -->
+### 23/04/2024
+- Pas de modification. C'est une tentative de faire apparaitre le plugin dans les docs Jeedom des plugins contributeurs. 
+
 ### 30/03/2024 Version stable
 - Elle inclut toutes les corrections des versions beta ci-dessous.
 
