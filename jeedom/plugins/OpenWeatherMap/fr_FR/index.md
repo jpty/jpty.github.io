@@ -5,4 +5,4 @@
 Plugin utilisant l'API One Call d'OpenWeatherMap pour afficher les prévisions météo.
 
 
-TODO
+22/07/2024 Plugin supprimé
