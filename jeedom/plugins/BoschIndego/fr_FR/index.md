@@ -4,9 +4,7 @@
 Commande et surveillance des robots tondeuse Bosch Indego Connect.
 
 ## Information importante.
-Bosch a changé le mode d'accès au cloud des tondeuses Indego le 1er mars 2023. Actuellement, le plugin n'est plus fonctionnel.
- 22/07/2024 Plugin supprimé
-
+22/07/2024 Plugin supprimé
 
 ## Configuration
 
