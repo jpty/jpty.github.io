@@ -8,12 +8,18 @@ Plugin utilisant l'API Rte.
 
 <!-- >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 -->
+
+### 27/07/2024 Version beta
+- Suppression du token si l'ID RTE est changé.
+- Ajout de tests pour suppression de PHP Notice dans les logs cron_execution, http.error
+- Ajout de " dans le json si les prix des kWh ne sont pas des nombres.
+- Ajout du sélecteur de template pour le type Tempo (EDF)
+
 ### 23/04/2024
 - Pas de modification. C'est une tentative de faire apparaitre le plugin dans les docs Jeedom des plugins contributeurs. 
 
 ### 30/03/2024 Version stable
 - Elle inclut toutes les corrections des versions beta ci-dessous.
-
   
 ### 29/03/2024 Version beta
 - Ajout du widget cmd.info.string.widget4JsonCmdByPhpvarious.html à affecter à la commande jsonCmdForWidget.
