@@ -9,6 +9,9 @@ Plugin utilisant l'API Rte.
 <!-- >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 -->
 
+### 30/07/2024 Version stable
+- Elle inclut toutes les corrections de la version beta ci-dessous.
+
 ### 27/07/2024 Version beta
 - Suppression du token actif si l'ID RTE est changé.
 - Ajout de tests pour suppression de PHP Notice dans les logs cron_execution, http.error
