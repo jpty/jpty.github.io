@@ -2,12 +2,15 @@
 
 # Rte Ecowatt - Plugin pour Jeedom
 
-Plugin utilisant l'API Rte.
+Plugin pouvant exploiter les API Rte Ecowatt v5, Tempo Like Supply Contract et Consumption.
 
 ## Changelog
 
 <!-- >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 -->
+
+### 30/08/2024 Version beta en cours
+ - Obsolescence des types EDF EJP, EDF TEMPO. Les données ne sont plus disponibles sur le site EDF. Pas de solution de remplacement pour EJP. Pour EDF TEMPO, il suffit de basculer sur le type RTE TEMPO.
 
 ### 30/07/2024 Version stable
 - Elle inclut toutes les corrections de la version beta ci-dessous.
