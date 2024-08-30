@@ -2,7 +2,7 @@
 
 # Rte Ecowatt - Plugin pour Jeedom
 
-Plugin utilisant les API Rte Ecowatt et Tempo pour extraire les données.
+Plugin pouvant utiliser les API Rte: Ecowatt, Tempo et Consumption pour exploitation dans Jeedom.
 
 > Pour une procédure d'installation plus détaillée, voir le site [MiniProjets.net](https://miniprojets.net/index.php/2022/10/13/plugin-rteecowatt-ou-comment-preparer-sa-domotique-a-la-reduction-denergie/) Merci à [Ferrader](https://community.jeedom.com/u/ferrader)
 
@@ -65,24 +65,15 @@ Apercu des différents templates du plugin:
 
 
 ### Type Tempo (EDF):
-- Ce type d'équipement n'utilise pas d'API RTE. La source utilisée est le site Web d'EDF.
-- Les commandes: Aujourd'hui, demain et pour chaque couleur, le nombre total de jour et le nombre de jours restants. Les valeurs possibles pour Aujourd'hui et demain sont BLUE, WHITE, RED, UNDEFINED et ERROR.
-- Le plugin interroge EDFà 0h*xx*, 11h*xx*, 12h*xx*, 14h*xx*, 16h*xx*. *xx* est défini par la tâche cron pullDataEcowatt 
-
-Apercu de l'équipement Tempo EDF:
-
-<img src="../images/TempoEDFTuile.png">
+- Ce type d'équipement est obsolète. Les données ne sont plus disponibles chez EDF.
+- Le contenu de la tuile est maintenant un message indiquant de passer sur la source Tempo (RTE).
 
 ### Type Ejp (EDF):
-- Ce type d'équipement n'utilise pas d'API RTE. La source utilisée est le site Web d'EDF.
-- 3 commandes: Aujourd'hui, demain et EJP restants. Les valeurs possibles pour Aujourd'hui et demain sont EJP, NOT_EJP, UNDEFINED, ERROR et OUT_OF_PERIOD.
-- Le plugin interroge EDF à 1h(heure de fin d’un jour EJP), 6h(avant le début d’un jour EJP, 12h, 16h (heure où demain passe dans le plugin de Non défini à EJP ou Non EJP. Si c’est Non EJP ce n’est pas définitif et peut être changé jusqu'à 5h du matin), 17h, 19h et 22h.
+- Ce type d'équipement est obsolète. Les données ne sont plus disponibles chez EDF.
+- Le contenu de la tuile est maintenant un message indiquant la fin de cet équipement.
+- Pas de solution de substitution sauf changer le contrat EDF d'EJP en Tempo.
 
-Apercu de l'équipement Ejp:
-
-<img src="../images/EjpTuile.png"> <img src="../images/EjpTuileHorsSaison.png">
-
-### Type Consommation RTE
+### Type Consommation (RTE)
 - Ce type d'équipememnt utilise l'API Consumtion de RTE. Voir les prérequis.
 - Les commandes: Consommation réalisée et 3 commandes avec des prévisions de consommation.
 - Dans le titre de la fenêtre, un lien vers le site [**éCO2mix**](https://www.rte-france.com/eco2mix) avec des infos intéressantes sur les sources de production, consommation, importation/exportation...
