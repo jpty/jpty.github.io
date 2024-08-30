@@ -15,10 +15,6 @@ Le plugin nécessite un compte sur le site [**data.rte-france**](https://data.rt
 - Pour utiliser Consommation, cliquez sur "Abonnez-vous à l'API" sur la page: [**API Consumption**](https://data.rte-france.com/catalog/-/api/consumption/Consumption/v1.2) Rattachez cette API à la même application qu'Ecowatt.
 - Dans la rubrique "Mes applications" cliquez sur votre application. En cliquant sur le bouton "Copier en base 64", vos ID client et ID secret encodés en base 64, pourront être collés dans la configuration du plugin. 
 
-## Aucun prérequis pour EJP et EDF Tempo
-Le plugin va chercher les infos [**EJP**](https://particulier.edf.fr/fr/accueil/gestion-contrat/options/ejp.html) 
-et [**Tempo**](https://particulier.edf.fr/fr/accueil/gestion-contrat/options/tempo.html#/) sur le site EDF.
-
 ## Configuration
 
 Après installation du plugin, il vous suffit de l’activer.
