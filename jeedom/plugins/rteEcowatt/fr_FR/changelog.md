@@ -9,8 +9,11 @@ Plugin pouvant exploiter les API Rte Ecowatt v5, Tempo Like Supply Contract et C
 <!-- >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 -->
 
-### 30/08/2024 Version beta en cours
+### 02/09/2024 Version beta
  - Obsolescence des types EDF EJP, EDF TEMPO. Les données ne sont plus disponibles sur le site EDF. Pas de solution de remplacement pour EJP. Pour EDF TEMPO, il suffit de basculer sur le type RTE TEMPO.
+ - Remplacement de Jours restants par Jours non placés.
+ - Ajout d'un bouton dans la Configuration du plugin pour suppriemr le fichier data/dataTempo.json qui contient l'historique des jours Tempo de la saison.
+ - Suppression de <b>Content-type: application/json</b> lors de la requête à RTE. Si RTE respecte sa documentation, sa réponse ne devrait plus être en XML...
 
 ### 30/07/2024 Version stable
 - Elle inclut toutes les corrections de la version beta ci-dessous.
