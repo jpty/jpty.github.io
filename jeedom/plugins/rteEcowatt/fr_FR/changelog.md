@@ -14,6 +14,7 @@ Plugin pouvant exploiter les API Rte Ecowatt v5, Tempo Like Supply Contract et C
  - Remplacement de Jours restants par Jours non placés.
  - Ajout d'un bouton dans la Configuration du plugin pour suppriemr le fichier data/dataTempo.json qui contient l'historique des jours Tempo de la saison.
  - Suppression de <b>Content-type: application/json</b> lors de la requête à RTE. Si RTE respecte sa documentation, sa réponse ne devrait plus être en XML...
+ - Correction de PHP Fatal error en PHP 8 avec la fonction date() dont le 2ème argument doit être obligatoirement un int. ( Perte de l'affichage de l'objet complet lorsqu'il contient un équipement Tempo ) 
 
 ### 30/07/2024 Version stable
 - Elle inclut toutes les corrections de la version beta ci-dessous.
