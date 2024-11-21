@@ -47,5 +47,5 @@ Le plugin utilise uniquement "Forecast Days". En plan gratuit, il n'y a que 3 jo
   Avec le choix "Pas de template", seule la commande "Météo H0 - Json pour widget" est affichée. Le widget Clock du plugin lui est affecté. ( Idem OpenWeatherMap )
 
   La partie supérieure des templates Icônes ou Images affiche les données météo de l'heure actuelle.<br>
-  La partie basse fournit les prévisions sur 3 jours. Les autres données sont celles fournies par weatherApi sans traitement.
+  La partie basse fournit les prévisions sur 3 jours fournies par weatherApi sans traitement.
   
