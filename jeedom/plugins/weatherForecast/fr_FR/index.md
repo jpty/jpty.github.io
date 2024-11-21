@@ -12,13 +12,13 @@ Selon la source de données utilisée, il est nécessaire de posséder une clé 
 
 ## Configuration pour l'utilisation de la source OpenWeatherMap
 
-Si vous utilisiez le plugin officiel Jeedom weather d'avant avril 2024, vous avez déjà un compte. Il vous suffit de récupérer la clé API et de la coller dans la configuration du plugin.
-La création de compte et la récupération de la clé API est à cette adresse : [**OpenWeatherMap.org**](https://home.openweathermap.org/api_keys) 
-Le plugin utilise les APIs gratuites Current Weather Data et 5 Day / 3 Hour Forecast.
+Si vous utilisiez le plugin officiel Jeedom weather d'avant avril 2024, vous avez déjà un compte OpenWeatherMap. Il vous suffit de récupérer la clé API à cette adresse : [**OpenWeatherMap.org**](https://home.openweathermap.org/api_keys) et de la coller dans la configuration du plugin.
+Le plugin utilise les APIs gratuites "Current Weather Data" et "5 Day / 3 Hour Forecast".
 
 ### Utilisation
 - Créez un équipement. 
 - Choississez la source de données OpenWeatherMap.
 - Renseignez les coordonnées GPS de la localisation désirée.
-- Sélectionnez le template d'affichage.
-  
+- Sélectionnez le template d'affichage. Icônes, Images ou Pas de template
+  <img src="../images/TemplatesOwm.png">
+  Sans template, seule la commande "Météo H0 - Json pour widget" est affichée. le widget Clock lui est affecté.
