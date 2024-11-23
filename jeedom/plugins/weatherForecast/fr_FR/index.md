@@ -24,7 +24,7 @@ Le plugin fait deux requêtes chaque demi-heure dans les 5 premières minutes.
 ### Utilisation
 - Créez un équipement. 
 - Choississez la source de données OpenWeatherMap.
-- Renseignez les coordonnées de la localisation désirée.
+- Renseignez les coordonnées de la localisation désirée. Les coordonnées proposées sont celles renseignées dans la configuration de Jeedom.
 - Sélectionnez le template d'affichage. Icônes, Images ou Pas de template
   <img src="../images/TemplatesOwm.png">
   Avec le choix "Pas de template", seule la commande "Météo H0 - Json pour widget" est affichée. Le widget Clock du plugin lui est affecté.
