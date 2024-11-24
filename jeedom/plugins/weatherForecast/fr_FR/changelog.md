@@ -8,6 +8,8 @@ Plugin utilisant OpenWeatherMap ou weatherApi pour afficher les prévisions mét
 
 >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 
+### 24/11/2024 beta
+- Ajout de paramètres optionnels dans le widget Clock afin de pouvoir afficher les secondes sur une seule ligne.
 
 ### 22/11/2024 beta
 - Corrections diverses. ( Vitesse des rafales, nom de commande trop long ... )
