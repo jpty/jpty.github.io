@@ -48,3 +48,5 @@ Le plugin utilise uniquement "Forecast Days". En plan gratuit, il n'y a que 3 jo
 
   La partie supérieure des templates Icônes ou Images affiche les données météo de l'heure actuelle.<br>
   La partie basse donne les prévisions sur 3 jours fournies par weatherApi sans traitement.
+
+  [Changelog](changelog.md)
