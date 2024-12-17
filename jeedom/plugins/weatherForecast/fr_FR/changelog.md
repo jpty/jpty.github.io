@@ -8,6 +8,9 @@ Plugin utilisant OpenWeatherMap ou weatherApi pour afficher les prévisions mét
 
 >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 
+### 08/12/2024 stable
+- Première version stable
+
 ### 08/12/2024 beta
 - Ajout de paramètres optionnels dans le widget Clock afin de pouvoir choisir la police de l'horloge et positionner les textes.
 - Ajout du paramètre optionnel clockTheme et des thémes Digital et KrisKringle
