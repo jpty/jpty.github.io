@@ -50,7 +50,8 @@ Le plugin utilise uniquement "Forecast Days". En plan gratuit, il n'y a que 3 jo
   La partie basse donne les prévisions sur 3 jours fournies par weatherApi sans traitement.
   
 ## Widget
-Le widget Clock par ses paramètres optionnels et en particulier clockTheme , permet de modifier l'affichage de l'horloge
-<img src="../ClockThemeDigitalAndKrisKingle.png">
+Le widget Clock par ses paramètres optionnels et en particulier clockTheme , permet de modifier l'affichage de l'horloge.
+Ci-dessous les thèmes Digital et KrisKringle
+<img src="../images/ClockThemeDigitalAndKrisKringle.png">
 
   [Changelog](changelog.md)
