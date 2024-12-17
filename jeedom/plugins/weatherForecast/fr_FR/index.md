@@ -51,7 +51,9 @@ Le plugin utilise uniquement "Forecast Days". En plan gratuit, il n'y a que 3 jo
   
 ## Widget
 Le widget Clock par ses paramètres optionnels et en particulier clockTheme , permet de modifier l'affichage de l'horloge.
-Ci-dessous les thèmes Digital et KrisKringle
+
+Ci-dessous les thèmes Digital et KrisKringle:
+
 <img src="../images/ClockThemeDigitalAndKrisKringle.png">
 
   [Changelog](changelog.md)
