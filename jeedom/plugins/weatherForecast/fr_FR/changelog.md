@@ -8,7 +8,11 @@ Plugin utilisant OpenWeatherMap ou weatherApi pour afficher les prévisions mét
 
 >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 
-### 08/12/2024 stable
+### 18/12/2024 stable et beta
+- Ajout de daptures d'écran pour le market.
+- Changement du nom du plugin en Weather Forecast
+  
+### 17/12/2024 stable
 - Première version stable.
 
 ### 08/12/2024 beta
