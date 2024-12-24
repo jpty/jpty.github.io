@@ -8,13 +8,15 @@ Plugin utilisant OpenWeatherMap ou weatherApi pour afficher les prévisions mét
 
 >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 
+### 24/12/2024 beta
+- Ajout des vigilances météo de Météo France. Elles apparaissent dés qu'un département est choisi dans la configuration de l'équipement.
+- Ajout du widget Vigilance pour les afficher. Il est affecté à la commande Vigilance - Json
 
 ### 19/12/2024 stable et beta
 - Corrections mineures dans widget Clock
 - Ajout thème EasterEgg.
 - Modifications des images pour le market Jeedom.
 - Paramètre optionnel clockTimezone possible même avec la météo.
-
 
 ### 18/12/2024 stable et beta
 - Ajout de captures d'écran pour affichage sur le market.
