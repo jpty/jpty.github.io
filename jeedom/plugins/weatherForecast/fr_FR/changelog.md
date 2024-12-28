@@ -8,6 +8,11 @@ Plugin utilisant OpenWeatherMap ou weatherApi pour afficher les prévisions mét
 
 >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 
+### 29/12/2024 beta
+- Ajout de la sélection du fuseau horaire dans la configuration de l’équipement.
+- Ajout des commandes sunriseTs et sunsetTs.
+- Passage des icones du widget Vigilance en images svg.
+
 ### 24/12/2024 beta
 - Ajout des vigilances météo de Météo France. Elles apparaissent dés qu'un département est choisi dans la configuration de l'équipement.
 - Ajout du widget Vigilance pour les afficher. Il est affecté à la commande Vigilance - Json
