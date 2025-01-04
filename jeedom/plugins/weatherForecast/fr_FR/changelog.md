@@ -8,6 +8,10 @@ Plugin utilisant OpenWeatherMap ou weatherApi pour afficher les prévisions mét
 
 >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 
+### 05/01/2025 stable et beta
+- Les versions stable et beta sont identiques.
+- Widget Clock retaillable.
+ 
 ### 29/12/2024 beta
 - Ajout de la sélection du fuseau horaire dans la configuration de l’équipement.
 - Ajout des commandes sunriseTs et sunsetTs.
