@@ -13,7 +13,7 @@ Il est nécessaire de renseigner la clé API correspondant à la source de donn�
 
 ## NOTA : Heure de Lever et Coucher du soleil
 
-Elles sont calculées localement par le plugin à partir des coordonnées sans accés externe. Elles sont sur le fuseau horaire de votre Jeedom ( commandes Id: sunrise et sunset). Pour affichage sur un fuseau horaire différent, les timestamps sont calculés et stockés dans les commandes sunriseTs et sunsetTs.
+Elles sont calculées localement par le plugin à partir des coordonnées sans accés externe. Elles sont sur le fuseau horaire de votre Jeedom pour des déclenchements par Jeedom (commandes Id: sunrise et sunset). Pour affichage sur un fuseau horaire différent, les timestamps sont stockés dans les commandes sunriseTs et sunsetTs.
 
 ## Configuration pour l'utilisation de la source OpenWeatherMap
 
@@ -41,7 +41,7 @@ Le plugin utilise uniquement "Forecast Days". En plan gratuit, il n'y a que 3 jo
 ### Utilisation
 - Créez un équipement. 
 - Choississez la source de données WeatherAPI.
-- Renseignez les coordonnées GPS de la localisation désirée.
+- Renseignez les coordonnées de la localisation désirée. Les coordonnées proposées sont celles renseignées dans la configuration de Jeedom.
 - Sélectionnez le template d'affichage. Icônes, Images ou Pas de template
   <img src="../images/TemplatesWapi.png">
   Avec le choix "Pas de template", seule la commande "Météo H0 - Json pour widget" est affichée. Le widget ClockWF du plugin lui est affecté. ( Idem OpenWeatherMap )
