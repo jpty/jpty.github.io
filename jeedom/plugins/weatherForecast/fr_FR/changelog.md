@@ -11,7 +11,7 @@ Plugin utilisant OpenWeatherMap ou weatherApi pour afficher les prévisions mét
 ### xx/xx/2025 beta en cours
 - Récupération et utilisation des 48x2 icônes de WeatherApi par le template Icônes.
 - Utilisation des 58x2 icônes de la police Wi pour la source OpenweatherMap par le template Icônes.
-- Fin de l'utilisation des 8 icônes fa via les classes du core. Le template Images et le widget clock utilisent encore les 10 images png.
+- Fin de l'utilisation des 8 icônes fa via les classes meteo du core. Le template Images et le widget clock utilisent encore les 10 images png.
 - Affichage possible des graphiques d'historique en fond de tuile.
 - Changement des noms des widgets Vigilance en VigilanceWF et Clock en ClockWF en raison de conflit possible entre plugins ou le core. Un seul widget Vigilance est listé par l'interface de sélection de widget Jeddom alors qu'il peut être défini plusieurs fois. Ex: meteofrance::Vigilance ou weatherForecast::Vigilance.
 - Correction sur les fuseaux horaires.
