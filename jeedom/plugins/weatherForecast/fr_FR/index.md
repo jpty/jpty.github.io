@@ -13,7 +13,7 @@ Il est nécessaire de renseigner la clé API correspondant à la source de donn�
 
 ## NOTA : Heure de Lever et Coucher du soleil
 
-Elles sont calculées localement par le plugin à partir des coordonnées sans accés externe .
+Elles sont calculées localement par le plugin à partir des coordonnées sans accés externe. Elles sont sur le fuseau horaire de votre Jeedom ( commandes Id: sunrise et sunset). Pour affichage sur un fuseau horaire différent, les timestamps sont calculés et stockés dans les commandes sunriseTs et sunsetTs.
 
 ## Configuration pour l'utilisation de la source OpenWeatherMap
 
@@ -44,16 +44,18 @@ Le plugin utilise uniquement "Forecast Days". En plan gratuit, il n'y a que 3 jo
 - Renseignez les coordonnées GPS de la localisation désirée.
 - Sélectionnez le template d'affichage. Icônes, Images ou Pas de template
   <img src="../images/TemplatesWapi.png">
-  Avec le choix "Pas de template", seule la commande "Météo H0 - Json pour widget" est affichée. Le widget Clock du plugin lui est affecté. ( Idem OpenWeatherMap )
+  Avec le choix "Pas de template", seule la commande "Météo H0 - Json pour widget" est affichée. Le widget ClockWF du plugin lui est affecté. ( Idem OpenWeatherMap )
 
   La partie supérieure des templates Icônes ou Images affiche les données météo de l'heure actuelle.<br>
   La partie basse donne les prévisions sur 3 jours fournies par weatherApi sans traitement.
   
 ## Widget
-Le widget Clock par ses paramètres optionnels et en particulier clockTheme , permet de modifier l'affichage de l'horloge.
+Le widget ClockWF par ses paramètres optionnels et en particulier clockTheme , permet de modifier l'affichage de l'horloge. Il peut etre utilisé avec la commande d'ID: H0Json4Widget pour afficher aussi la météo. Sans commande associée, seule l'horloge est affichée.
 
 Ci-dessous les thèmes Digital et KrisKringle:
 
 <img src="../images/ClockThemeDigitalAndKrisKringle.png">
+
+Le widget VigilanceWF est également fourni. Il permet l'affichage des alertes météo de MétoFrance. Le département à surveiller doit être renseigné dans la configuration de l'équipement. Le widget est alimenté par la commande d'ID: VigilanceJson
 
   [Changelog](changelog.md)
