@@ -13,7 +13,7 @@ Il est nécessaire de renseigner la clé API correspondant à la source de donn�
 
 ## NOTA : Heure de Lever et Coucher du soleil
 
-Elles sont calculées localement par le plugin à partir des coordonnées sans accés externe. Elles sont sur le fuseau horaire de votre Jeedom pour des déclenchements par Jeedom (commandes Id: sunrise et sunset). Pour affichage sur un fuseau horaire différent, les timestamps sont stockés dans les commandes sunriseTs et sunsetTs.
+Elles sont calculées localement par le plugin à partir des coordonnées sans accés externe. Elles sont sur le fuseau horaire de votre Jeedom pour des déclenchements d'actions par Jeedom (commandes Id: sunrise et sunset). Pour affichage sur un fuseau horaire différent, les timestamps sont stockés dans les commandes sunriseTs et sunsetTs.
 
 ## Configuration pour l'utilisation de la source OpenWeatherMap
 
