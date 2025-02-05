@@ -9,6 +9,7 @@ Plugin utilisant OpenWeatherMap ou weatherApi pour afficher les prévisions mét
 >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 
 ### xx/xx/2025 beta en cours
+- Ebauche de la traduction du plugin.
 - Récupération et utilisation des 48x2 icônes de WeatherApi par le template Icônes.
 - Utilisation des 58x2 icônes de la police Wi pour la source OpenweatherMap par le template Icônes.
 - Fin de l'utilisation des 8 icônes fa via les classes meteo du core. Le template Images et le widget clock utilisent encore les 10 images png.
