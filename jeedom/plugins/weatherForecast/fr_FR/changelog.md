@@ -9,6 +9,7 @@ Plugin utilisant OpenWeatherMap ou weatherApi pour afficher les prévisions mét
 >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 ### 09/02/2025 stable
 - Publication de la version stable identique à la beta du 06/02
+- Le changement de noms des widgets VigilanceWF et ClockWF nécessite qu'ils soient réaffectés aux commandes.
   
 ***
 ### 06/02/2025 beta
