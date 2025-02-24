@@ -8,7 +8,7 @@ Plugin utilisant OpenWeatherMap ou weatherApi pour afficher les prévisions mét
 
 >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 
-### 24/02/2025 beta
+### 25/02/2025 beta
 - Ajout des commandes indice UV de l'heure courante et de l'indice UV max du jour avec la source weatherApi.
 - Récupération et affichage des alertes Météo de Meteoalarm.org (38 pays). CAP (Common Alerting Protocol) est utilisé. Les commandes ajoutées sont MeteoalarmAlertsJson, MeteoalarmColorMax, MeteoalarmColorMaxNow et MeteoalarmList
 - Ajout de la function getInfoJson et extractValueFromJsonTxt permettant d'extraire des valeurs des commandes Json en utilisant un JsonPath simplifié.
