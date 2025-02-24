@@ -7,6 +7,14 @@ Plugin utilisant OpenWeatherMap ou weatherApi pour afficher les prévisions mét
 ## Changelog
 
 >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
+
+### xx/02/2025 debug
+- Ajout des commandes indice UV de l'heure courante et de l'indice UV max du jour avec la source weatherApi.
+- Ajout des alertes Météo de Meteoalarm.org (38 pays). CAP (Common Alerting Protocol) est utilisé.
+- Ajout de la function getInfoJson et extractValueFromJsonTxt permettant d'extraire des valeurs des commandes Json en utilisant un JsonPath simplifié.
+- Possibilité de template custom pour les prévisions par jour. Si le fichier custom.forecast.html existe, il est utilisé en remplacement du fichier forecast.html fourni.
+
+***
 ### 09/02/2025 stable
 - Publication de la version stable identique à la beta du 06/02
 - Le changement de noms des widgets VigilanceWF et ClockWF nécessite qu'ils soient réaffectés aux commandes.
