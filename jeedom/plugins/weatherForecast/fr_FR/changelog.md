@@ -2,7 +2,7 @@
 
 #  Weather Forecast, CAP alerts - Plugin pour Jeedom
 
-Plugin utilisant OpenWeatherMap ou weatherApi pour afficher les prévisions météo.
+Plugin utilisant OpenWeatherMap.org ou weatherApi.com pour afficher les prévisions météo et meteoalarm.org ou meteofrance.com pour les alertes météo.
 
 ## Changelog
 
