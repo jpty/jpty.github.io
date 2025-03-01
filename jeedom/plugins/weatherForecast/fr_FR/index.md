@@ -65,6 +65,8 @@ Lorsqu'un pays pour les alertes meteoalarm est choisi, les vigilances ne sont pl
 <img src="../images/Vigilances-meteofrance.png">
 
 ## CAP Alertes meteoalarm.org
+Les alertes météo de 38 pays d'Europe sont disponibles.
+
 <img src="../images/weatherAlerts_CAP.png">
 On les obtient en choisissant un pays et en renseignant une zone (Département, province, région, comté ...)
 On peut sélectionner plusieurs zones. Les alertes des différentes zones sont alors séparées par la barre bleu comme dans l'exemple ci-dessus.
