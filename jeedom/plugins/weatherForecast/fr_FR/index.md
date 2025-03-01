@@ -70,11 +70,13 @@ On les obtient en choisissant un pays et en renseignant une zone (Département, 
 On peut sélectionner plusieurs zones. Les alertes des différentes zones sont alors séparées par la barre bleu comme dans l'exemple ci-dessus.
 La commandes utilisées pour stocker les données est MeteoalarmAlertsJson. Les autres commandes sont MeteoalarmColorMax pour la couleur max prévues ( 1 vert, 2 jaune, 3 rouge ), MeteoalarmColorMaxNow pour le niveau d'alerte actuel et MeteoalarmList pour la liste des alertes prévues.
 
-Les icônes et les IDs des alertes CAP
+<br><br>
+Les icônes et les IDs des alertes CAP:
+
 <img src="../images/Meteoalarm-Icons-and-IDs-Ver.png">
 
 ## Les commandes "Json"
-Les fonction statiques  getJsonInfo($cmdId, $request) et extractValueFromJsonTxt($cmdValue, $request) sont fournies pour vous permettre d'extraire des valeurs de ces commandes Json.
+Les fonction statiques  getJsonInfo($cmdId, $request) et extractValueFromJsonTxt($cmdValue, $request) sont fournies pour vous permettre d'extraire des valeurs des commandes Json.
 Le paramètre $request est un JsonPath simplifié identique à celui du plugin officiel script
 
   [Changelog](changelog.md)
