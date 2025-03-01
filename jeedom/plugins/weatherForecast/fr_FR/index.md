@@ -56,6 +56,25 @@ Ci-dessous les thèmes Digital et KrisKringle:
 
 <img src="../images/ClockThemeDigitalAndKrisKringle.png">
 
-Le widget VigilanceWF est également fourni. Il permet l'affichage des alertes météo de MétoFrance. Le département à surveiller doit être renseigné dans la configuration de l'équipement. Le widget est alimenté par la commande d'ID: VigilanceJson
+Le widget VigilanceWF est également fourni. Il permet l'affichage des alertes météo de MétoFrance. Le département à surveiller doit être renseigné dans la configuration de l'équipement. Le widget est alimenté par la commande d'ID: VigilanceJson.
+Pour les modifications de l'apparence de ces widgets, voir leur paramètres optionnels respectifs.
+
+## Vigilances MeteoFrance
+En renseignant le numéro d'un département de France Métropolitaine, les vigilances diffusées par Météo France sont récupérées.
+Lorsqu'un pays pour les alertes meteoalarm est choisi, les vigilances ne sont plus affichées mais elles sont quand même récupérées.
+<img src="../images/Vigilances-meteofrance.png">
+
+## CAP Alertes meteoalarm.org
+<img src="../images/weatherAlerts_CAP.png">
+On les obtient en choisissant un pays et en renseignant une zone (Département, province, région, comté ...)
+On peut sélectionner plusieurs zones. Les alertes des différentes zones sont alors séparées par la barre bleu comme dans l'exemple ci-dessus.
+La commandes utilisées pour stocker les données est MeteoalarmAlertsJson. Les autres commandes sont MeteoalarmColorMax pour la couleur max prévues ( 1 vert, 2 jaune, 3 rouge ), MeteoalarmColorMaxNow pour le niveau d'alerte actuel et MeteoalarmList pour la liste des alertes prévues.
+
+Les icônes et les IDs des alertes CAP
+<img src="../images/Meteoalarm-Icons-and-IDs-Ver.png">
+
+## Les commandes "Json"
+Les fonction statiques  getJsonInfo($cmdId, $request) et extractValueFromJsonTxt($cmdValue, $request) sont fournies pour vous permettre d'extraire des valeurs de ces commandes Json.
+Le paramètre $request est un JsonPath simplifié identique à celui du plugin officiel script
 
   [Changelog](changelog.md)
