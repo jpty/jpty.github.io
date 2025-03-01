@@ -8,7 +8,7 @@ Plugin utilisant OpenWeatherMap.org ou weatherApi.com pour afficher les prévisi
 
 >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 
-### 02/03/2025 stable
+### 02/03/2025 stable et beta
 - Publication de la version stable identique à la beta.
 
 ***
