@@ -1,8 +1,8 @@
 <img align="right" src="../images/AtmoFrance_icon.png" width="100">
 
-# Weather Forecast, CAP alerts - Plugin pour Jeedom
+# Atmo France, Pollens - Plugin pour Jeedom
 
-Plugin utilisant OpenWeatherMap ou weatherApi pour afficher les prévisions météo.
+Plugin utilisant l'API d'Atmo France pour afficher les niveaux de pollens.
 
 ## Configuration du plugin
 
