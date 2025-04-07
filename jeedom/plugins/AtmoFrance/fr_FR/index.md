@@ -1,4 +1,4 @@
-<img align="right" src="../images/weatherForecast_icon.png" width="100">
+<img align="right" src="../images/AtmoFrance_icon.png" width="100">
 
 # Weather Forecast, CAP alerts - Plugin pour Jeedom
 
