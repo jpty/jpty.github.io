@@ -12,4 +12,8 @@ Plugin utilisant l'API d'Atmo France pour afficher les niveaux de pollens.
 ### 06/04/2025
 - Version initiale.
 
+### 09/04/2025
+- Synchro API à partir de 15h (16h auparavent
+- A la création/modification d'un équipement, l'équipement n'est pas mis à jour automatiquement. Il faut cliquer sur le bouton refresh. Ca générait trop de requêtes à l'API lors de la mise au point de l'apparence de l'équipement.
+
 [Retour à la documentation du plugin](index.md)
