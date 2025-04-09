@@ -60,6 +60,8 @@ Le plugin *Atmo France* pour Jeedom permet de récupérer automatiquement les do
 **Q : Et si l’EPCI n'existe pas pour cette commune ?**
 > Il sera remplacé par `----` dans le champ final.
 
+## TODO la doc de l'utilisation.
+
 ## Note sur les commandes "Json"
 Les fonction statiques  getJsonInfo($cmdId, $request) et extractValueFromJsonTxt($cmdValue, $request) sont fournies pour vous permettre d'extraire des valeurs des commandes Json.
 Le paramètre $request est un JsonPath simplifié identique à celui du plugin officiel script
