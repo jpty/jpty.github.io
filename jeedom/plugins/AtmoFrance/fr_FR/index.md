@@ -4,18 +4,45 @@
 
 Plugin utilisant l'API d'Atmo France pour afficher les niveaux de pollens.
 
-### 1. Présentation
 Le plugin *Atmo France* pour Jeedom permet de récupérer automatiquement les données des pollens pour une commune donnée, en s'appuyant sur le code postal.
 
-### 2. Pré-requis
+## 🧰 1. Pré-requis
 - Jeedom v4 ou supérieure.
 - Connexion Internet active (le plugin interroge une API externe).
+- ### 🔑 Création d’un compte API
+  
+Avant de configurer le plugin dans Jeedom, vous devez créer un compte API sur le site d’Atmo France :
 
-### 3. Installation
+1. Rendez-vous sur le lien suivant pour faire une demande de création de compte :  
+   👉 [https://admindata.atmo-france.org/inscription-api](https://admindata.atmo-france.org/inscription-api)
+
+   La validation par Atmo France est manuelle.
+3. Une fois la demande validée, vous recevrez un e-mail d’**Atmo France - Agrégateur** contenant un lien pour initialiser votre mot de passe.
+
+4. Cliquez sur ce lien et définissez votre mot de passe. Attention: pas de " ou de ' dans le mot de passe.
+
+5. Conservez précieusement **l’identifiant** (ce n'est pas votre e-mail) et **le mot de passe**, car ils seront utilisés dans Jeedom.
+
+## 📦 2. Installation
 - Depuis le Market Jeedom, rechercher le plugin "AtmoFrance".
 - Installer le plugin et activer-le.
 
-### 4. Configuration de l'équipement
+## 🛠️ 3. Configuration du plugin
+
+### ⚙️ Paramétrage dans Jeedom
+
+Une fois le compte API actif :
+
+- Accédez à la page de configuration du plugin AtmoFrance dans Jeedom.
+- Renseignez les informations d’identification dans les champs suivants :
+
+| Champ         | Description                                                       |
+|---------------|-------------------------------------------------------------------|
+| **Identifiant** | L’identifiant fourni par Atmo France. |
+| **Mot de passe** | Le mot de passe que vous avez défini via le lien reçu par mail.         |
+
+
+## 🛠️ 4. Configuration de l'équipement
 #### a. Création de l'équipement
 - Aller dans *Plugins > Météo > AtmoFrance*.
 - Ajouter un nouvel équipement.
@@ -50,7 +77,7 @@ Le plugin *Atmo France* pour Jeedom permet de récupérer automatiquement les do
 - Le champ de sélection de commune fonctionne **sans champ caché** ni `setTimeout`, pour plus de fiabilité.
 - La roulette souris ne permet pas la sélection, mais le survol met en évidence l’élément pointé.
 
-#### h. FAQ configuration
+## ❓5. FAQ configuration
 **Q : Le champ "Communes (INSEE,EPCI)" reste vide ?**
 > Vérifiez que le code postal est correct et que vous avez validé la sélection si une modale s'est affichée.
 
@@ -62,7 +89,7 @@ Le plugin *Atmo France* pour Jeedom permet de récupérer automatiquement les do
 
 ## TODO la doc de l'utilisation.
 
-## Note sur les commandes "Json"
+## 💡Note sur les commandes "Json"
 Les fonction statiques  getJsonInfo($cmdId, $request) et extractValueFromJsonTxt($cmdValue, $request) sont fournies pour vous permettre d'extraire des valeurs des commandes Json.
 Le paramètre $request est un JsonPath simplifié identique à celui du plugin officiel script
 
