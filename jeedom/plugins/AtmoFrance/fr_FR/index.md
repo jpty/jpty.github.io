@@ -55,7 +55,7 @@ Le plugin *Atmo France* pour Jeedom permet de récupérer automatiquement les do
 > Vérifiez que le code postal est correct et que vous avez validé la sélection si une modale s'est affichée.
 
 **Q : Peut-on saisir manuellement la commune ?**
-> Oui, si vous connaissez le code INSEE de votre commune, le champ Communes (INSEE,EPCI)` peut etre saisi manuellement. Il suffit de respecter le format du champ. C'est au minimum (codeInsee,codeEPCI) 
+> Oui, si vous connaissez le code INSEE de votre commune, le champ **codeZone** Communes (INSEE,EPCI)  peut etre saisi manuellement. Il suffit de respecter le format du champ. C'est au minimum (codeInsee,codeEPCI) 
 
 **Q : Et si l’EPCI n'existe pas pour cette commune ?**
 > Il sera remplacé par `----` dans le champ final.
