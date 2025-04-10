@@ -10,7 +10,7 @@ Source des données : Atmo France et les Associations agréées de surveillance 
 - Jeedom v4 ou supérieure.
 - Connexion Internet active (le plugin interroge une API externe).
 - ### 🔑 Création d’un compte API
-  
+
 Avant de configurer le plugin dans Jeedom, vous devez créer un compte API sur le site d’Atmo France :
 
 1. Rendez-vous sur le lien suivant pour faire une demande de création de compte :  
@@ -43,15 +43,15 @@ Une fois le compte API actif :
 
 
 ## 🛠️ 4. Configuration de l'équipement
-#### a. Création de l'équipement
+#### 4-a. Création de l'équipement
 - Allez dans *Plugins > Météo > AtmoFrance*.
 - Ajoutez un nouvel équipement.
 
-#### b. Paramètres principaux
+#### 4-b. Paramètres principaux
 - **Nom** : nom de l’équipement.
 - **Objet parent** : pièce ou zone où est utilisé l’équipement.
 
-#### c. Code postal & sélection de commune
+#### 4-c. Code postal & sélection de commune
 - Saisissez un code postal dans le champ prévu.
 - Cliquez sur l’icône loupe ou appuyer sur Entrée pour lancer la recherche.
   - Si **une seule commune** est trouvée, elle est automatiquement sélectionnée.
@@ -59,32 +59,29 @@ Une fois le compte API actif :
     - Utilisez les flèches, la souris ou un double-clic pour sélectionner.
     - La touche Échap permet d'annuler.
 
-#### d. Résultat
+#### 4-d. Résultat
 - Le champ **codeZone** se remplit automatiquement au format : `Nom commune (INSEE,EPCI)`.
 - Une bordure rouge ou un message d'erreur apparaît si le code postal est invalide.
 
-#### e. Fonctionnement
+#### 4-e. Fonctionnement
 - Le plugin interroge un fichier PHP (via AJAX) qui retourne les communes correspondant au code postal.
 - Le champ texte gère la validation avec un feedback visuel (✅ ou ❌).
 - Le champ `codeZone` est utilisé pour les appels API futurs liés à la qualité de l'air.
 
-#### f. Cas particuliers / erreurs
+#### 4-f. Cas particuliers / erreurs
 - Si aucune commune n’est trouvée : un message d’erreur s’affiche.
 - Si le code postal contient autre chose que 5 chiffres : erreur immédiate.
 - Une seule commune = sélection automatique sans affichage de la modale.
 
-#### g. Astuces ou limitations
+#### 4-g. Astuces ou limitations
 - La roulette souris ne permet pas la sélection, mais le survol met en évidence l’élément pointé.
 
-## ❓5. FAQ configuration
-**Q : Le champ "Communes (INSEE,EPCI)" reste vide ?**
+## ❓5. FAQ
+**Q : Lors de la configuration d'un équipement, le champ "Communes (INSEE,EPCI)" reste vide ?**
 > Vérifiez que le code postal est correct et que vous avez validé la sélection si une modale s'est affichée.
 
-**Q : Peut-on saisir manuellement la commune ?**
+**Q : Peut-on renseigner manuellement le champ "Communes (INSEE,EPCI)" ?**
 > Oui, si vous connaissez le code INSEE de votre commune, le champ **codeZone** Communes (INSEE,EPCI)  peut etre saisi manuellement. Il suffit de respecter le format du champ. Les formats possibles sont: `codeInsee`, `codeInsee,codeEPCI`, `(codeInsee,codeEPCI)` ou `Nom_commune (codeInsee,codeEPCI)` 
-
-**Q : Et si l’EPCI n'existe pas pour cette commune ?**
-> Il sera remplacé par `----` dans le champ final.
 
 ## TODO la doc de l'utilisation.
 
