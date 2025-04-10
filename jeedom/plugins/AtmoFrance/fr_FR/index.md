@@ -76,6 +76,39 @@ Une fois le compte API actif :
 #### 4-g. Astuces ou limitations
 - La roulette souris ne permet pas la sélection, mais le survol met en évidence l’élément pointé.
 
+## 6. Principales commandes créées par le plugin
+| ID commande   | Description                                                       |
+|---------------|-------------------------------------------------------------------|
+| **pollensJson** | Le résultat brut de la requête en Json sur 3 jours. |
+| **date_maj** | La date des données récupérées. |
+| **code_zone** | Le code INSEE de la commune. |
+| **lib_zone** | Le libellé de la commune. |
+| **aasqa** | Le code de l'association. |
+| **source** | Le libellé de l'association source des données. |
+
+Pour chaque jour Jx, le plugin crée aussi ces commandes avec x de 0 à 2.
+
+| ID commande   | Description                                                       |
+|---------------|-------------------------------------------------------------------|
+| **pollens**Jx**Json** | Le résultat brut de la requête en Json du jour Jx. |
+| **date_ech**Jx | La date du jour Jx. |
+| **code_qual**Jx | Le code qualité générale du jour Jx. |
+
+Puis pour chaque jour Jx et chaque pollen parmi ambr, arm, aul, boul, gram et oliv le plugin crée aussi ces commandes.
+
+| ID commande   | Description                                                       |
+|---------------|-------------------------------------------------------------------|
+| **code_pollen**Jx | Le code du pollen pour le jour Jx. Les valeurs possible vont de 0 à 6. |
+
+Les données pour les concentrations de ces pollens sont également disponibles, mais le plugin ne crée pas de commande.
+
+
+
+### 💡Note sur les commandes "Json" 
+Les fonction statiques  getJsonInfo($cmdId, $request) et extractValueFromJsonTxt($cmdValue, $request) sont fournies pour vous permettre d'extraire des valeurs des commandes Json.
+Le paramètre $request est un JsonPath simplifié identique à celui du plugin officiel script
+
+
 ## ❓5. FAQ
 **Q : Lors de la configuration d'un équipement, le champ "Communes (INSEE,EPCI)" reste vide ?**
 > Vérifiez que le code postal est correct et que vous avez validé la sélection si une modale s'est affichée.
@@ -83,10 +116,11 @@ Une fois le compte API actif :
 **Q : Peut-on renseigner manuellement le champ "Communes (INSEE,EPCI)" ?**
 > Oui, si vous connaissez le code INSEE de votre commune, le champ **codeZone** Communes (INSEE,EPCI)  peut etre saisi manuellement. Il suffit de respecter le format du champ. Les formats possibles sont: `codeInsee`, `codeInsee,codeEPCI`, `(codeInsee,codeEPCI)` ou `Nom_commune (codeInsee,codeEPCI)` 
 
-## TODO la doc de l'utilisation.
+**Q : Quand le plugin récupère-t-il les données chez Atmo France ?**
+> Les données sont mises à jour chez Atmo France une fois par jour entre 12h et 15h. Le plugin va donc chercher les données à partir de 15h. Il le fait à une minute définie par le plugin sur votre Jeedom. Ceci afin de ne pas surcharger leur serveur avec les requêtes Jeedom en même temps. Il est toutefois possible de forcer la mise à jour d'un équipement en cliquant sur l'icône Refresh en haut à droite de sa tuile.
 
-## 💡Note sur les commandes "Json"
-Les fonction statiques  getJsonInfo($cmdId, $request) et extractValueFromJsonTxt($cmdValue, $request) sont fournies pour vous permettre d'extraire des valeurs des commandes Json.
-Le paramètre $request est un JsonPath simplifié identique à celui du plugin officiel script
+**Q : A la création ou lors de la modification du codeInsee d'un équipement, les données ne se mettent pas à jour**
+> Il est nécessaire de cliquer sur l'icône Refresh en haut à droite de sa tuile ou d'attendre que le cron passe(fréquence horaire).
+
 
   [Changelog](changelog.md)
