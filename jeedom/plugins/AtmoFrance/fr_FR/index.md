@@ -2,9 +2,9 @@
 
 # Atmo France, Pollens - Plugin pour Jeedom
 
-Plugin utilisant l'API d'Atmo France pour afficher les niveaux de pollens.
+Le plugin *Atmo France* pour Jeedom permet de récupérer automatiquement les données des pollens pour une commune donnée, en s'appuyant sur le code INSEE.
+Source des données : Atmo France et les Associations agréées de surveillance de la qualité de l’air.(AASQA)
 
-Le plugin *Atmo France* pour Jeedom permet de récupérer automatiquement les données des pollens pour une commune donnée, en s'appuyant sur le code postal.
 
 ## 🧰 1. Pré-requis
 - Jeedom v4 ou supérieure.
