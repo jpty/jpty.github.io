@@ -76,7 +76,7 @@ Une fois le compte API actif :
 #### 4-g. Astuces ou limitations
 - La roulette souris ne permet pas la sélection, mais le survol met en évidence l’élément pointé.
 
-## 6. Principales commandes créées par le plugin
+## 5. Principales commandes créées par le plugin
 | ID commande   | Description                                                       |
 |---------------|-------------------------------------------------------------------|
 | **pollensJson** | Le résultat brut de la requête en Json sur 3 jours. |
@@ -101,15 +101,12 @@ Puis pour chaque jour Jx et chaque pollen parmi ambr, arm, aul, boul, gram et ol
 | **code_pollen**Jx | Le code du pollen pour le jour Jx. Les valeurs possible vont de 0 à 6. |
 
 Les données pour les concentrations de ces pollens sont également disponibles, mais le plugin ne crée pas de commande.
-
-
-
-### 💡Note sur les commandes "Json" 
+#### 💡Note sur les commandes "Json" 
 Les fonction statiques  getJsonInfo($cmdId, $request) et extractValueFromJsonTxt($cmdValue, $request) sont fournies pour vous permettre d'extraire des valeurs des commandes Json.
 Le paramètre $request est un JsonPath simplifié identique à celui du plugin officiel script
 
 
-## ❓5. FAQ
+## ❓6. FAQ
 **Q : Lors de la configuration d'un équipement, le champ "Communes (INSEE,EPCI)" reste vide ?**
 > Vérifiez que le code postal est correct et que vous avez validé la sélection si une modale s'est affichée.
 
