@@ -24,8 +24,8 @@ Avant de configurer le plugin dans Jeedom, vous devez créer un compte API sur l
 5. Conservez précieusement **l’identifiant** (ce n'est pas votre e-mail) et **le mot de passe**, car ils seront utilisés dans Jeedom.
 
 ## 📦 2. Installation
-- Depuis le Market Jeedom, rechercher le plugin "AtmoFrance".
-- Installer le plugin et activer-le.
+- Depuis le Market Jeedom, recherchez le plugin "AtmoFrance".
+- Installez le plugin et activez-le.
 
 ## 🛠️ 3. Configuration du plugin
 
@@ -44,16 +44,16 @@ Une fois le compte API actif :
 
 ## 🛠️ 4. Configuration de l'équipement
 #### a. Création de l'équipement
-- Aller dans *Plugins > Météo > AtmoFrance*.
-- Ajouter un nouvel équipement.
+- Allez dans *Plugins > Météo > AtmoFrance*.
+- Ajoutez un nouvel équipement.
 
 #### b. Paramètres principaux
 - **Nom** : nom de l’équipement.
 - **Objet parent** : pièce ou zone où est utilisé l’équipement.
 
 #### c. Code postal & sélection de commune
-- Saisir un code postal dans le champ prévu.
-- Cliquer sur l’icône loupe ou appuyer sur Entrée pour lancer la recherche.
+- Saisissez un code postal dans le champ prévu.
+- Cliquez sur l’icône loupe ou appuyer sur Entrée pour lancer la recherche.
   - Si **une seule commune** est trouvée, elle est automatiquement sélectionnée.
   - Si **plusieurs communes** existent pour ce code postal, une modale de sélection s’ouvre.
     - Utilisez les flèches, la souris ou un double-clic pour sélectionner.
@@ -74,7 +74,6 @@ Une fois le compte API actif :
 - Une seule commune = sélection automatique sans affichage de la modale.
 
 #### g. Astuces ou limitations
-- Le champ de sélection de commune fonctionne **sans champ caché** ni `setTimeout`, pour plus de fiabilité.
 - La roulette souris ne permet pas la sélection, mais le survol met en évidence l’élément pointé.
 
 ## ❓5. FAQ configuration
@@ -82,7 +81,7 @@ Une fois le compte API actif :
 > Vérifiez que le code postal est correct et que vous avez validé la sélection si une modale s'est affichée.
 
 **Q : Peut-on saisir manuellement la commune ?**
-> Oui, si vous connaissez le code INSEE de votre commune, le champ **codeZone** Communes (INSEE,EPCI)  peut etre saisi manuellement. Il suffit de respecter le format du champ. C'est au minimum (codeInsee,codeEPCI) 
+> Oui, si vous connaissez le code INSEE de votre commune, le champ **codeZone** Communes (INSEE,EPCI)  peut etre saisi manuellement. Il suffit de respecter le format du champ. Les formats possibles sont: `codeInsee`, `codeInsee,codeEPCI`, `(codeInsee,codeEPCI)` ou `Nom_commune (codeInsee,codeEPCI)` 
 
 **Q : Et si l’EPCI n'existe pas pour cette commune ?**
 > Il sera remplacé par `----` dans le champ final.
