@@ -77,15 +77,20 @@ Une fois le compte API actif :
 - La roulette souris ne permet pas la sélection, mais le survol met en évidence l’élément pointé.
 
 ## 5. Principales commandes créées par le plugin
+
 | ID commande   | Description                                                       |
 |---------------|-------------------------------------------------------------------|
-| **pollensJson** | Le résultat brut de la requête en Json sur 3 jours. |
 | **date_maj** | La date des données récupérées. |
 | **code_zone** | Le code INSEE de la commune. |
 | **lib_zone** | Le libellé de la commune. |
 | **aasqa** | Le code de l'association. |
 | **source** | Le libellé de l'association source des données. |
 
+### Type d'équipement Pollens:
+
+| ID commande   | Description                                                       |
+|---------------|-------------------------------------------------------------------|
+| **pollensJson** | Le résultat brut de la requête en Json sur 3 jours. |
 Pour chaque jour Jx, le plugin crée aussi ces commandes avec x de 0 à 2.
 
 | ID commande   | Description                                                       |
@@ -101,6 +106,24 @@ Puis pour chaque jour Jx et chaque pollen parmi ambr, arm, aul, boul, gram et ol
 | **code_pollen**Jx | Le code du pollen pour le jour Jx. Les valeurs possible vont de 0 à 6. |
 
 Les données pour les concentrations de ces pollens sont également disponibles, mais le plugin ne crée pas de commande.
+### Type d'équipement indice ATMO
+
+| ID commande   | Description                                                       |
+|---------------|-------------------------------------------------------------------|
+| **aqisJson** | Le résultat brut de la requête en Json sur 3 jours. |
+
+| ID commande   | Description                                                       |
+|---------------|-------------------------------------------------------------------|
+| **aqi**Jx**Json** | Le résultat brut de la requête en Json du jour Jx. |
+| **date_ech**Jx | La date du jour Jx. |
+| **code_qual**Jx | Le code qualité générale du jour Jx. |
+
+Puis pour chaque jour Jx et chaque aqi parmi no2, o3, so2, pm25 et pm10 le plugin crée aussi ces commandes.
+
+| ID commande   | Description                                                       |
+|---------------|-------------------------------------------------------------------|
+| **code_aqi**Jx | Le code du pollen pour le jour Jx. Les valeurs possible vont de 0 à 6. |
+
 #### 💡Note sur les commandes "Json" 
 Les fonction statiques  getJsonInfo($cmdId, $request) et extractValueFromJsonTxt($cmdValue, $request) sont fournies pour vous permettre d'extraire des valeurs des commandes Json.
 Le paramètre $request est un JsonPath simplifié identique à celui du plugin officiel script
