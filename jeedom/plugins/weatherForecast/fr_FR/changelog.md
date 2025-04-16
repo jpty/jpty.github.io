@@ -8,6 +8,17 @@ Plugin utilisant OpenWeatherMap.org ou weatherApi.com pour afficher les prévisi
 
 >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 
+
+### 17/04/2025 beta
+- Corrections mineures typage des données.
+- Copyright sur alarmes Meteoalarm
+- Corrections du widget clockWF.
+  - Séparateur décimales et séparateur des milliers selon la langue du navigateur.
+  - Chargement possible des polices qui se trouvent dans le répertoire data/customTemplates/fonts. Les polices connues par le navigateur sont utilisables.
+- Icones différentes sur les alertes Flood et Rain flood
+- Ajout bouton Dupliquer pour copier un équipement existant.
+
+***
 ### 02/03/2025 stable et beta
 - Publication de la version stable identique à la beta.
 
