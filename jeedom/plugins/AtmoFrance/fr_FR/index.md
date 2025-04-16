@@ -64,7 +64,7 @@ Une fois le compte API actif :
 - Une bordure rouge ou un message d'erreur apparaît si le code postal est invalide.
 
 #### 4-e. Fonctionnement
-- Le plugin interroge un fichier PHP (via AJAX) qui retourne les communes correspondant au code postal.
+- Le plugin interroge l'API geo.api.gouv.fr (via AJAX) qui retourne les communes correspondant au code postal.
 - Le champ texte gère la validation avec un feedback visuel (✅ ou ❌).
 - Le champ `codeZone` est utilisé pour les appels API futurs liés à la qualité de l'air.
 
