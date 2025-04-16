@@ -1,6 +1,6 @@
 <img align="right" src="../images/AtmoFrance_icon.png" width="100">
 
-# Atmo France, Pollens - Plugin pour Jeedom
+# Atmo France, Pollens et Qualité de l'air - Plugin pour Jeedom
 
 Le plugin *Atmo France* pour Jeedom permet de récupérer automatiquement les données des pollens pour une commune donnée, en s'appuyant sur le code INSEE.
 Source des données : Atmo France et les Associations agréées de surveillance de la qualité de l’air.(AASQA)
