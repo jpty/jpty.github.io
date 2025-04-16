@@ -91,6 +91,7 @@ Une fois le compte API actif :
 | ID commande   | Description                                                       |
 |---------------|-------------------------------------------------------------------|
 | **pollensJson** | Le résultat brut de la requête en Json sur 3 jours. |
+
 Pour chaque jour Jx, le plugin crée aussi ces commandes avec x de 0 à 2.
 
 | ID commande   | Description                                                       |
