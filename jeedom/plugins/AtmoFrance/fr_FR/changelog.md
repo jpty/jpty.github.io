@@ -10,7 +10,14 @@ Plugin utilisant l'API d'Atmo France pour afficher les niveaux de pollens.
 
 ***
 
-### 16/04/2025
+
+### 22/04/2025 beta
+- Pré-renseignement du code postal avec celui de la configuration de Jeedom.
+- Vérification du couple Insee/Epci
+- Amélioration formattage des logs
+
+***
+### 16/04/2025 beta ( Demande passage en stable )
 - Interrogation de l'API à la création ou à la modification de la localisation d'un équipement. Le refresh manuel de l'équipement devient inutile.
 - La durée de vie du jeton est de 24h. C'est encodé en base64 dans le jeton.
 - Correction de la perte du code Insee en édition d'un équipement existant. Sélection du code Insee dans une modale quand il existe plusieurs code Inseee correspondant au code postal.
@@ -21,7 +28,7 @@ Plugin utilisant l'API d'Atmo France pour afficher les niveaux de pollens.
 - Widgets identiques pour le mobile.
 - Mise à jour des équipements existants lors de la mise à jour du plugin.
 
-  
+***  
 ### 10/04/2025
 - Synchro API à partir de 15h (16h auparavant)
 - A la création/modification d'un équipement, l'équipement n'est plus mis à jour automatiquement. Il faut cliquer sur le bouton refresh. Ca générait trop de requêtes à l'API lors de la mise au point de l'apparence de l'équipement.
