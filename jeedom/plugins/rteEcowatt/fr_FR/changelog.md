@@ -9,6 +9,10 @@ Plugin pouvant exploiter les API Rte Ecowatt v5, Tempo Like Supply Contract et C
 <!-- >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 -->
 
+### 23/08/2025 Version beta
+- Réduction du niveau de log à warning pour les requetes à RTE
+- Retour d'EJP
+
 ### 04/09/2024 Version stable
 - Elle inclut les corrections de la version beta ci-dessous.
 
