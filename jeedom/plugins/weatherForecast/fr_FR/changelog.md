@@ -9,6 +9,13 @@ Plugin utilisant OpenWeatherMap.org ou weatherApi.com pour afficher les prévisi
 >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 
 
+### 05/03/2026 beta
+- Ajout des prévisions de pluie dans l'heure de Meteo France.
+- Tri des commandes dans des onglets dans la configuration de l'équipement.
+- Ajout du widget 1hRainWidget pour utilisation sur un design, sur une commande d'un virtuel ou sur un équipement weatherForecast sans template. La commande à représenter est : 1hRainForecastJson de l'onglet Json cmds.
+- Intégration dans le template weatherForecast.html de la prévision de pluie dans l'heure.
+- Correction de la sauvegarde des équipements à la mise à jour du plugin
+
 ### 17/04/2025 beta
 - Corrections mineures typage des données.
 - Copyright sur alarmes Meteoalarm
