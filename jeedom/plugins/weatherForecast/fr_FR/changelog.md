@@ -8,7 +8,12 @@ Plugin utilisant OpenWeatherMap.org ou weatherApi.com pour afficher les prévisi
 
 >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 
+***
+### 07/03/2026 stable et beta
+- Corrections mineures de la beta.
+- Publication de la version stable identique à la beta.
 
+***
 ### 05/03/2026 beta
 - Ajout des prévisions de pluie dans l'heure de Meteo France.
 - Tri des commandes dans des onglets dans la configuration de l'équipement.
