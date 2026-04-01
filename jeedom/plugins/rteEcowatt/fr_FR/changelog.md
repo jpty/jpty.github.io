@@ -9,6 +9,10 @@ Plugin pouvant exploiter les API Rte Ecowatt v5, Tempo Like Supply Contract et C
 <!-- >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 -->
 
+### 01/04/2026 Version beta
+- Récupération automatique des tarifs Tempo si EDF ne change pas le format de son PDF. Calcul de la date fin de validité des tarifs ( +6 mois si parution de février ou août )
+- Correction pour la fin de saison EJP.
+
 ### 16/01/2026 Version stable
 - Elle inclut les corrections des versions beta ci-dessous. La date de mise à jour sur le market est le 07/01/2026.
 
