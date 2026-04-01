@@ -65,9 +65,9 @@ Apercu des différents templates du plugin:
 - Le contenu de la tuile est maintenant un message indiquant de passer sur la source Tempo (RTE).
 
 ### Type Ejp (EDF):
-- Ce type d'équipement est obsolète. Les données ne sont plus disponibles chez EDF.
-- Le contenu de la tuile est maintenant un message indiquant la fin de cet équipement.
-- Pas de solution de substitution sauf changer le contrat EDF d'EJP en Tempo.
+- Ce type d'équipement utilise le site Web d'EDF pour récupérer les couleurs EJP.
+
+<img src="../images/EjpTuile.png"> <img src="../images/EjpTuileHorsSaison.png">
 
 ### Type Consommation (RTE)
 - Ce type d'équipememnt utilise l'API Consumtion de RTE. Voir les prérequis.
