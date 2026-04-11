@@ -7,6 +7,7 @@ Plugin utilisant OpenWeatherMap.org ou weatherApi.com pour afficher les prévisi
 ## Changelog
 
 >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
+
 ---
 
 ### 11/04/2026 stable et beta
@@ -15,6 +16,7 @@ Plugin utilisant OpenWeatherMap.org ou weatherApi.com pour afficher les prévisi
 
 ### 01/04/2026 beta
 - Ajout de Météo France comme source de données des prévisions météo.
+
 ---
 
 ### 07/03/2026 stable et beta
@@ -38,6 +40,7 @@ Plugin utilisant OpenWeatherMap.org ou weatherApi.com pour afficher les prévisi
 - Ajout bouton Dupliquer pour copier un équipement existant.
 
 ***
+
 ### 02/03/2025 stable et beta
 - Publication de la version stable identique à la beta.
 
@@ -48,6 +51,7 @@ Plugin utilisant OpenWeatherMap.org ou weatherApi.com pour afficher les prévisi
 - Possibilité de template custom pour les prévisions par jour. ( Si le fichier custom.forecast.html existe, il est utilisé en remplacement du fichier forecast.html fourni. )
 
 ***
+
 ### 09/02/2025 stable
 - Publication de la version stable identique à la beta du 06/02
 - Le changement de noms des widgets VigilanceWF et ClockWF nécessite qu'ils soient réaffectés aux commandes.
@@ -62,6 +66,7 @@ Plugin utilisant OpenWeatherMap.org ou weatherApi.com pour afficher les prévisi
 - Ebauche de la traduction du plugin.
 
 ***
+
 ### 05/01/2025 stable et beta
 - Les versions stable et beta sont identiques.
 - Widget Clock retaillable.
@@ -76,6 +81,7 @@ Plugin utilisant OpenWeatherMap.org ou weatherApi.com pour afficher les prévisi
 - Ajout du widget Vigilance pour les afficher. Il est affecté à la commande Vigilance - Json
 
 ***
+
 ### 19/12/2024 stable et beta
 - Corrections mineures dans widget Clock
 - Ajout thème EasterEgg.
@@ -83,11 +89,13 @@ Plugin utilisant OpenWeatherMap.org ou weatherApi.com pour afficher les prévisi
 - Paramètre optionnel clockTimezone possible même avec la météo.
 
 ***
+
 ### 18/12/2024 stable et beta
 - Ajout de captures d'écran pour affichage sur le market.
 - Changement du nom du plugin en Weather Forecast au lieu de OpenWeatherMap, WeatherApi
 
-***  
+***
+
 ### 17/12/2024 stable
 - Première version stable.
 
@@ -104,6 +112,7 @@ Plugin utilisant OpenWeatherMap.org ou weatherApi.com pour afficher les prévisi
 - Utilisation des coordonnées de la Configuration Jeedom lors de la création d'un nouvel équipemement.
 
 ***
+
 ### 13/11/2024
 - Version initiale.
 
