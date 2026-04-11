@@ -9,6 +9,7 @@ Plugin pouvant exploiter les API Rte Ecowatt v5, Tempo Like Supply Contract et C
 <!-- >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 -->
 
+***
 ### 11/04/2026 Version beta et stable
 - Ajout lien [**Forum**](https://community.jeedom.com/tag/plugin-rteecowatt) sur la page du plugin sur le market.
 - Synchronisation des versions beta et stable.
@@ -17,6 +18,7 @@ Plugin pouvant exploiter les API Rte Ecowatt v5, Tempo Like Supply Contract et C
 - Récupération automatique des tarifs Tempo si EDF ne change pas le format de son PDF. Calcul de la date fin de validité des tarifs ( +6 mois si parution de février ou août )
 - Correction pour la fin de saison EJP.
 
+***
 ### 16/01/2026 Version stable
 - Elle inclut les corrections des versions beta ci-dessous. La date de mise à jour sur le market est le 07/01/2026.
 
@@ -27,6 +29,7 @@ Plugin pouvant exploiter les API Rte Ecowatt v5, Tempo Like Supply Contract et C
 - Réduction du niveau de log à warning pour les requetes à RTE
 - Retour d'EJP
 
+***
 ### 04/09/2024 Version stable
 - Elle inclut les corrections de la version beta ci-dessous.
 
@@ -37,6 +40,7 @@ Plugin pouvant exploiter les API Rte Ecowatt v5, Tempo Like Supply Contract et C
  - Suppression de <b>Content-type: application/json</b> lors de la requête à RTE. Si RTE respecte sa documentation, sa réponse ne devrait plus être en XML...
  - Correction de PHP Fatal error en PHP 8 avec la fonction date() dont le 2ème argument doit être obligatoirement un int. ( Perte de l'affichage de l'objet complet lorsqu'il contient un équipement Tempo ) 
 
+***
 ### 30/07/2024 Version stable
 - Elle inclut toutes les corrections de la version beta ci-dessous.
 
@@ -49,13 +53,13 @@ Plugin pouvant exploiter les API Rte Ecowatt v5, Tempo Like Supply Contract et C
 ### 23/04/2024
 - Pas de modification. C'est une tentative encore ratée de faire apparaitre le plugin dans les docs Jeedom des plugins contributeurs. 
 
+***
 ### 30/03/2024 Version stable
 - Elle inclut toutes les corrections des versions beta ci-dessous.
   
 ### 29/03/2024 Version beta
 - Ajout du widget cmd.info.string.widget4JsonCmdByPhpvarious.html à affecter à la commande jsonCmdForWidget.
 - Ajout / correction des widgets pour mobile.
-
 
 ### 25/03/2024 Version beta
 #### - RTE Tempo
@@ -82,7 +86,8 @@ Plugin pouvant exploiter les API Rte Ecowatt v5, Tempo Like Supply Contract et C
 
 #### - EDF EJP, EDF TEMPO
 - Augmentation à 20s du timeout de connexion au site edf.fr
-  
+
+***
 ### 08/04/2023 Version stable
 - Elle inclut toutes les corrections des versions beta ci-dessous.
 
@@ -113,6 +118,7 @@ Plugin pouvant exploiter les API Rte Ecowatt v5, Tempo Like Supply Contract et C
 - Ajout dans les messages d'alerte niveau 2 ou 3, d'un lien vers le site d'Enedis pour connaitre les lieux de coupure d'électricité.
 A utiliser quand il y aura une alerte de niveau 3.
 
+***
 ### 06/11/2022 Version stable
 
 - Elle inclut toutes les corrections des versions beta ci-dessous.
