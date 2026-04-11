@@ -7,7 +7,7 @@ Plugin utilisant OpenWeatherMap.org ou weatherApi.com pour afficher les prévisi
 ## Changelog
 
 >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
-***
+---
 
 ### 11/04/2026 stable et beta
 - Corrections mineures de la beta précédente.
@@ -15,7 +15,7 @@ Plugin utilisant OpenWeatherMap.org ou weatherApi.com pour afficher les prévisi
 
 ### 01/04/2026 beta
 - Ajout de Météo France comme source de données des prévisions météo.
-***
+---
 
 ### 07/03/2026 stable et beta
 - Corrections mineures de la beta précédente.
