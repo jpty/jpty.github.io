@@ -10,6 +10,14 @@ Plugin utilisant OpenWeatherMap.org ou weatherApi.com pour afficher les prévisi
 
 ***
 
+### 02/05/2026 beta
+- Possibilité d'utiliser l'API vigilance de Meteo France. Il faut pour cela renseigner APPLICATION_ID et cocher la case Utilisation API dans la configuration du plugin.
+- Suppression des références au plugin meteofrance.
+- Correction des templates mobile
+- 7 jours de prévisions Meteo France
+- Ajout des commandes uvMax par jour (4 premiers) pour MF
+***
+
 ### 11/04/2026 stable et beta
 - Corrections mineures de la beta précédente.
 - Publication de la version stable identique à la beta.
