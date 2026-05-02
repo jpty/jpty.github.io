@@ -16,6 +16,7 @@ Plugin utilisant OpenWeatherMap.org ou weatherApi.com pour afficher les prévisi
 - Correction des templates mobile
 - 7 jours de prévisions Meteo France
 - Ajout des commandes uvMax par jour (4 premiers) pour MF
+
 ***
 
 ### 11/04/2026 stable et beta
