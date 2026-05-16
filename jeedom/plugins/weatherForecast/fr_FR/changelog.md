@@ -10,6 +10,11 @@ Plugin utilisant OpenWeatherMap.org ou weatherApi.com pour afficher les prévisi
 
 ***
 
+### 16/05/2026 beta
+- Ajout d'une dépendance php-intl permettant de formater les dates et nombres.
+- Ajout des vigilances Météo des forêts. Il faut souscrire à cette API dans votre Application chez Meteo France. C'est une information saisonnière disponible uniquement de juin à septembre. En espérant que les serveurs MF soient opérationnels. Lors de mes premiers essais il y a 2 ans, une requete à MF sur 3 passait à la trappe pour cette API. Si c'est encore le cas, il suffira de décocher l'utilisation de cette API dans la configuration du plugin.
+- Corrections et reformatage divers
+
 ### 02/05/2026 beta
 - Possibilité d'utiliser l'API vigilance de Meteo France. Il faut pour cela renseigner APPLICATION_ID et cocher la case Utilisation API dans la configuration du plugin.
 - Suppression des références au plugin meteofrance.
