@@ -13,8 +13,8 @@ Plugin utilisant OpenWeatherMap.org ou weatherApi.com pour afficher les prévisi
 ### 06/06/2026 stable et beta
 - Corrections mineures de la beta précédente.
 - Publication de la version stable identique à la beta.
-- La procédure de récupération de l'APPLICATION_ID pour les vigilances et la Météo des forêts sur le site de Météo France a été détaiilé https://community.jeedom.com/t/actualites-du-plugin-weather-forecast-cap-alerts/135292/19?u=jpty
-
+- Voir la [**procédure de récupération de l'APPLICATION_ID**](https://community.jeedom.com/t/actualites-du-plugin-weather-forecast-cap-alerts/135292/19?u=jpty) pour les vigilances et la Météo des forêts sur le site de Météo France.
+  
 ### 02/06/2026 beta
 - Avec les données du début de la saison, mise au point de la Météo des forêts. Cette année les serveurs MF semblent opérationnels. 
 - Ebauche de la tarduction du plugin.
