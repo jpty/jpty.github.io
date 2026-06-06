@@ -10,10 +10,15 @@ Plugin utilisant OpenWeatherMap.org ou weatherApi.com pour afficher les prévisi
 
 ***
 
+### 06/06/2026 stable et beta
+- Corrections mineures de la beta précédente.
+- Publication de la version stable identique à la beta.
+
 ### 02/06/2026 beta
 - Avec les données du début de la saison, mise au point de la Météo des forêts. Cette année les serveurs MF semblent opérationnels. 
 - Ebauche de la tarduction du plugin.
 - Corrections et reformatage divers
+- Changement de sous-type en numérique pour les commandes niveaux de pluie dans l'heure
 
 ### 16/05/2026 beta
 - Ajout d'une dépendance php-intl permettant de formater les dates et nombres.
