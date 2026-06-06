@@ -25,11 +25,11 @@ Voir la [**procédure de récupération de l'APPLICATION_ID**](https://community
 - Choississez la source de données Météo France.
 - Renseignez les coordonnées de la localisation désirée. Les coordonnées proposées sont celles renseignées dans la configuration de Jeedom.
 - Seuls les icônes fournies par MF s'affichent lors du choix du template Images ou Icones. ( Pas d'images )   
-- **NB: Les prévisions ne sont pas limitées à la France.**  
-  <img width="442" height="283" alt="image" src="https://github.com/user-attachments/assets/5f5b1be1-5beb-4b5b-b774-1cde8f75d5f0" /> <img width="386" height="107" alt="image" src="https://github.com/user-attachments/assets/4161ebfb-6037-460b-87b0-d0ba272be5e4" />
+- **NB: Les prévisions ne sont pas limitées à la France.**
+  <img width="912" height="312" alt="image" src="https://github.com/user-attachments/assets/d50e86da-6757-48da-9298-4b5b4de4de7d" />
+<img width="388" height="104" alt="image" src="https://github.com/user-attachments/assets/1a955aa3-8a04-490c-8485-0b54b2b73510" /> <img width="379" height="100" alt="image" src="https://github.com/user-attachments/assets/3c23a1ae-755f-482e-9286-42b9a574417a" />
 
 
- 
 
 ## Configuration pour l'utilisation de la source OpenWeatherMap
 
