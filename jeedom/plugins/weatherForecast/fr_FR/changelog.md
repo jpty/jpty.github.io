@@ -10,6 +10,18 @@ Plugin utilisant OpenWeatherMap.org ou weatherApi.com pour afficher les prévisi
 
 ***
 
+### 27/10/2026 beta
+- Suppression des dépendances du plugin (php-intl) C'est au core de Jeedom de les installer.
+- Ajout de la commande temperature_variation en °C/heure. Elle permet d'afficher un message quand une variation de température est trop importante afin de détecter un dysfonctionnement d'une API. Le seuil de déclenchement du message est à définir dans les paramétres de l'équipememnt. 4°C/h par défaut
+- Ajout de la commande snow. Modification des templates.
+- Ajout des commandes MFProbaPluie3h, MFProbaNeige3h, MFProbaGel et MFProbaDate
+- Ajout de la commande ProbabilityForecastJson reprenant les 12 dernières probabilités des commandes ci-dessus par tranche de 6h.
+- Colorisation des températures mini et maxi
+- Possibilité d'avoir sur un équipement les vigilances MétéoFrance et Meteoalarm ( pour affichage des départements voisins)
+- Ajout d'un message signalant que la souscription aux API MétéoFrance est expirée et doit être prolongée.
+- Ajout de l'onglet Cmds diverses pour le classement des commandes dans la configuration de l'équipement. Actuellement cet onglet contient les commandes MFProba listées ci-dessus.
+  
+
 ### 06/06/2026 stable et beta
 - Corrections mineures de la beta précédente.
 - Publication de la version stable identique à la beta.
