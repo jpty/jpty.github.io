@@ -61,8 +61,12 @@ Apercu des différents templates du plugin:
 
 
 ### Type Tempo (EDF):
-- Ce type d'équipement est obsolète. Les données ne sont plus disponibles chez EDF.
-- Le contenu de la tuile est maintenant un message indiquant de passer sur la source Tempo (RTE).
+- Ce type d'équipement utilise le site Web d'EDF pour récupérer les couleurs TEMPO.
+- Les données du lendemain sont disponibles à partir de 11h.
+
+### Type Prévisions Tempo:
+- La tuile permet d'afficher les données fournies par [**calendrier-tempo.fr**](https://www.calendrier-tempo.fr/)  et/ou [**open-dpe.fr**](https://open-dpe.fr/tempo-forecast/)
+
 
 ### Type Ejp (EDF):
 - Ce type d'équipement utilise le site Web d'EDF pour récupérer les couleurs EJP.
