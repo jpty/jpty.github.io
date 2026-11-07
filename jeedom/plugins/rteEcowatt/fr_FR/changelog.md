@@ -9,6 +9,12 @@ Plugin pouvant exploiter les API Rte Ecowatt v5, Tempo Like Supply Contract et C
 <!-- >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 -->
 
+### 07/11/2026 Version beta
+- Retour du type  d'équipement: TEMPO (EDF). Avec ce type, il n'est pas nécessaire de posséder un compte RTE.
+- Ajout du type d'équipement: Prévisions Tempo. Ces données sont fournies par calendrier-tempo.fr ou open-dpe.fr
+- Correction du type EJP (EDF). Pb sur tuile au début de saison.
+
+
 ***
 ### 11/04/2026 Version beta et stable
 - Ajout lien [**Forum**](https://community.jeedom.com/tag/plugin-rteecowatt) sur la page du plugin sur le market.
