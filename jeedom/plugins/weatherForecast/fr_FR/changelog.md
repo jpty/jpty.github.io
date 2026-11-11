@@ -8,6 +8,11 @@ Plugin utilisant OpenWeatherMap.org ou weatherApi.com pour afficher les prévisi
 
 >*Remarque : en cas de mise à jour non listée ici, c'est que celle-ci ne comporte que des changements mineurs du type documentation ou corrections de bugs mineurs.*
 
+### 11/11/2026 beta
+- Trim du numéro de département dans les vigilances.
+- Explication des erreurs http 401 (Your subscription has expired.) et 403 (API Subscription validation failed.) dans le log weatherForecast en warning lors de l'interrogation des API Météo-France
+- Suppression de message quand les APIs Vigilance, meteo des forêts ne sont pas utilisées.
+
 ***
 
 ### 04/11/2026 stable
